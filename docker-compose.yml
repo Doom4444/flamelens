@@ -1,0 +1,41 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: flamelens_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-flamelens}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-flamelens}
+      POSTGRES_DB: ${POSTGRES_DB:-flamelens}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-flamelens} -d ${POSTGRES_DB:-flamelens}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: flamelens_backend
+    restart: unless-stopped
+    environment:
+      - APP_NAME=FlameLens
+      - APP_VERSION=0.1.0
+      - ENVIRONMENT=development
+      - DEBUG=True
+      - API_PREFIX=/api/v1
+      - CORS_ORIGINS=http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000
+      - DATABASE_URL=postgresql+psycopg://${POSTGRES_USER:-flamelens}:${POSTGRES_PASSWORD:-flamelens}@db:5432/${POSTGRES_DB:-flamelens}
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
