@@ -28,10 +28,15 @@ class Settings(BaseSettings):
     # Database configuration (PostgreSQL + pgvector for Phase 3)
     DATABASE_URL: str = "postgresql+psycopg://flamelens:flamelens@localhost:5432/flamelens"
 
-    # AI configuration (for Phase 6)
+    # AI configuration (optional; metadata retrieval works without any key)
     GEMINI_API_KEY: str = ""
+    GEMINI_MODEL: str = "gemini-2.0-flash"
     GROQ_API_KEY: str = ""
+    GROQ_MODEL: str = "llama-3.3-70b-versatile"
     OLLAMA_BASE_URL: str = "http://localhost:11434"
+
+    # Read-only metadata inventory location (defaults to data/metadata)
+    FLAMELENS_METADATA_DIR: str = ""
 
     # Logging
     LOG_LEVEL: str = "INFO"

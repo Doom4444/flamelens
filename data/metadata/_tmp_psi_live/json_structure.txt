@@ -1,0 +1,217 @@
+================================================================================
+PSI-100_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-100.json
+dict keys=['accession', 'acknowledgments', 'added', 'approach', 'assays', 'contacts', 'description', 'dirty', 'doi', 'experimentHardware', 'experimentHardwareLink', 'experimentalTable', 'experiments', 'factors', 'filesDisabled', 'flightProgram', 'funding', 'hypothesis', 'identifiers', 'images', 'investigationAcronym', 'investigationEndDate', 'investigationStartDate', 'licenseIdentifier', 'licenseLink', 'licenseName', 'managingNasaCenter', 'missionEnd', 'missionLink', 'missionName', 'missionStart', 'modified', 'modifiedDate', 'objective', 'organizations', 'payloads', 'projectIdentifier', 'projectLink', 'projectTitle', 'projectType'] n=61
+  accession.str='PSI-100'
+  acknowledgments.str=''
+  added.list n=85 type0=dict
+  added.  [0].dict keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=18
+  approach.str='The Saffire-III experiments were performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on to the Saffire 1 inv...'
+  assays.list n=0 type0=None
+  contacts.list n=1 type0=dict
+  contacts.  [0].dict keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles'] n=11
+  description.str=''
+  dirty.bool=False
+  doi.str='10.60555/040q-4h36'
+  experimentHardware.str='Saffire III enclosure in Cygnus'
+  experimentHardwareLink.str='https://www1.grc.nasa.gov/space/iss-research/msg/saffire/'
+  experimentalTable.list n=1 type0=dict
+  experimentalTable.  [0].dict keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=15
+  experiments.list n=0 type0=None
+  factors.list n=0 type0=None
+  filesDisabled.NoneType=None
+  flightProgram.str='International Space Station (ISS)'
+  funding.str='NASA'
+  hypothesis.str='This investigation hypothesizes that due to large differences between fire behavior in normal and reduced gravity, the use of terrestrial fires and fire standar...'
+  identifiers.list n=0 type0=None
+  images.list n=0 type0=None
+  investigationAcronym.str='SAFFIRE-III'
+  investigationEndDate.str=''
+  investigationStartDate.str='04-18-2017'
+  licenseIdentifier.str='CC0-1.0'
+  licenseLink.str='https://spdx.org/licenses/CC0-1.0.html'
+================================================================================
+PSI-101_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-101.json
+dict keys=['accession', 'acknowledgments', 'added', 'approach', 'assays', 'contacts', 'description', 'dirty', 'doi', 'experimentHardware', 'experimentHardwareLink', 'experimentalTable', 'experiments', 'factors', 'filesDisabled', 'flightProgram', 'funding', 'hypothesis', 'identifiers', 'images', 'investigationAcronym', 'investigationEndDate', 'investigationStartDate', 'licenseIdentifier', 'licenseLink', 'licenseName', 'managingNasaCenter', 'missionEnd', 'missionLink', 'missionName', 'missionStart', 'modified', 'modifiedDate', 'objective', 'organizations', 'payloads', 'projectIdentifier', 'projectLink', 'projectTitle', 'projectType'] n=61
+  accession.str='PSI-101'
+  acknowledgments.str=''
+  added.list n=342 type0=dict
+  added.  [0].dict keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=18
+  approach.str='SAME-R utilized the SAME hardware used on-orbit. Based on the experience gained from SAME, SAME-R included the following modifications: 1) a new test material,\n...'
+  assays.list n=0 type0=None
+  contacts.list n=6 type0=dict
+  contacts.  [0].dict keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles'] n=11
+  description.str=''
+  dirty.bool=False
+  doi.str='10.60555/2np7-jv14'
+  experimentHardware.str='Comparitive Soot Diagnostic Hardware; Refer to final report'
+  experimentHardwareLink.str='https://ntrs.nasa.gov/api/citations/19960008413/downloads/19960008413.pdf'
+  experimentalTable.list n=1 type0=dict
+  experimentalTable.  [0].dict keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=15
+  experiments.list n=0 type0=None
+  factors.list n=0 type0=None
+  filesDisabled.NoneType=None
+  flightProgram.str='International Space Station (ISS)'
+  funding.str=''
+  hypothesis.str='The three hypotheses that motivated the original SAME investigation is also applicable for the reflight SAME-R investigation:\nIn a μg environment, with the abse...'
+  identifiers.list n=0 type0=None
+  images.list n=0 type0=None
+  investigationAcronym.str='SAME-R'
+  investigationEndDate.str='09-30-2010'
+  investigationStartDate.str='07-01-2010'
+  licenseIdentifier.str='CC0-1.0'
+  licenseLink.str='https://spdx.org/licenses/CC0-1.0.html'
+================================================================================
+PSI-102_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-102.json
+dict keys=['accession', 'acknowledgments', 'added', 'approach', 'assays', 'contacts', 'description', 'dirty', 'doi', 'experimentHardware', 'experimentHardwareLink', 'experimentalTable', 'experiments', 'factors', 'filesDisabled', 'flightProgram', 'funding', 'hypothesis', 'identifiers', 'images', 'investigationAcronym', 'investigationEndDate', 'investigationStartDate', 'licenseIdentifier', 'licenseLink', 'licenseName', 'managingNasaCenter', 'missionEnd', 'missionLink', 'missionName', 'missionStart', 'modified', 'modifiedDate', 'objective', 'organizations', 'payloads', 'projectIdentifier', 'projectLink', 'projectTitle', 'projectType'] n=61
+  accession.str='PSI-102'
+  acknowledgments.str=''
+  added.list n=104 type0=dict
+  added.  [0].dict keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'version', 'visible'] n=15
+  approach.str='The crew installed the near field hardware in the Glovebox, attached the Far Field Box to the Glovebox, and positioned the video cameras. The operator then ran ...'
+  assays.list n=0 type0=None
+  contacts.list n=5 type0=dict
+  contacts.  [0].dict keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles'] n=11
+  description.str=''
+  dirty.bool=False
+  doi.str='10.60555/gd4k-8h62'
+  experimentHardware.str='Comparitive Soot Diagnostic Hardware'
+  experimentHardwareLink.str='https://ntrs.nasa.gov/api/citations/19960008413/downloads/19960008413.pdf'
+  experimentalTable.list n=1 type0=dict
+  experimentalTable.  [0].dict keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=15
+  experiments.list n=0 type0=None
+  factors.list n=0 type0=None
+  filesDisabled.NoneType=None
+  flightProgram.str='International Space Station (ISS)'
+  funding.str='IH1013215'
+  hypothesis.str='The three hypotheses that motivated this investigation:\nIn a μg environment, with the absence of the strong buoyancy-induced flows, smoke particle growth from a...'
+  identifiers.list n=0 type0=None
+  images.list n=0 type0=None
+  investigationAcronym.str='SAME'
+  investigationEndDate.str='02-28-2008'
+  investigationStartDate.str='03-02-2001'
+  licenseIdentifier.str='CC0-1.0'
+  licenseLink.str='https://spdx.org/licenses/CC0-1.0.html'
+================================================================================
+PSI-25_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-25.json
+dict keys=['accession', 'acknowledgments', 'added', 'approach', 'assays', 'contacts', 'description', 'dirty', 'doi', 'experimentHardware', 'experimentHardwareLink', 'experimentalTable', 'experiments', 'factors', 'filesDisabled', 'flightProgram', 'funding', 'hypothesis', 'identifiers', 'images', 'investigationAcronym', 'investigationEndDate', 'investigationStartDate', 'licenseIdentifier', 'licenseLink', 'licenseName', 'managingNasaCenter', 'missionEnd', 'missionLink', 'missionName', 'missionStart', 'modified', 'modifiedDate', 'objective', 'organizations', 'payloads', 'projectIdentifier', 'projectLink', 'projectTitle', 'projectType'] n=61
+  accession.str='PSI-25'
+  acknowledgments.str=''
+  added.list n=694 type0=dict
+  added.  [0].dict keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'version', 'visible'] n=15
+  approach.str="To summarize, BASS-II's approach, microgravity combustion tests were performed aboard the International Space Station. Active crew support for real-time “lab pa..."
+  assays.list n=0 type0=None
+  contacts.list n=5 type0=dict
+  contacts.  [0].dict keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles'] n=11
+  description.str=''
+  dirty.bool=False
+  doi.str='10.60555/4qc4-de67'
+  experimentHardware.str='Microgravity Science Glovebox (MSG)'
+  experimentHardwareLink.str='https://www1.grc.nasa.gov/space/iss-research/msg/'
+  experimentalTable.list n=1 type0=dict
+  experimentalTable.  [0].dict keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=15
+  experiments.list n=0 type0=None
+  factors.list n=0 type0=None
+  filesDisabled.NoneType=None
+  flightProgram.str='International Space Station (ISS)'
+  funding.str=''
+  hypothesis.str='BASS–II tests the hypothesis that materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity with...'
+  identifiers.list n=0 type0=None
+  images.list n=1 type0=dict
+  images.  [0].dict keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=15
+  investigationAcronym.str='BASS-II'
+  investigationEndDate.str='12-31-2022'
+  investigationStartDate.str='01-01-2010'
+  licenseIdentifier.str='CC0-1.0'
+  licenseLink.str='https://spdx.org/licenses/CC0-1.0.html'
+================================================================================
+PSI-26_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-26.json
+dict keys=['accession', 'acknowledgments', 'added', 'approach', 'assays', 'contacts', 'description', 'dirty', 'doi', 'experimentHardware', 'experimentHardwareLink', 'experimentalTable', 'experiments', 'factors', 'filesDisabled', 'flightProgram', 'funding', 'hypothesis', 'identifiers', 'images', 'investigationAcronym', 'investigationEndDate', 'investigationStartDate', 'licenseIdentifier', 'licenseLink', 'licenseName', 'managingNasaCenter', 'missionEnd', 'missionLink', 'missionName', 'missionStart', 'modified', 'modifiedDate', 'objective', 'organizations', 'payloads', 'projectIdentifier', 'projectLink', 'projectTitle', 'projectType'] n=61
+  accession.str='PSI-26'
+  acknowledgments.str=''
+  added.list n=211 type0=dict
+  added.  [0].dict keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'version', 'visible'] n=15
+  approach.str='The experiment was conducted aboard the International Space Station (ISS) inside the Microgravity Glove Box (MSG). Custom-made fabric samples consisting of 75% ...'
+  assays.list n=0 type0=None
+  contacts.list n=4 type0=dict
+  contacts.  [0].dict keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles'] n=11
+  description.str=''
+  dirty.bool=False
+  doi.str='10.60555/58h4-dy80'
+  experimentHardware.str='Microgravity Science Glovebox'
+  experimentHardwareLink.str='https://www1.grc.nasa.gov/space/iss-research/msg/'
+  experimentalTable.list n=1 type0=dict
+  experimentalTable.  [0].dict keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=15
+  experiments.list n=0 type0=None
+  factors.list n=0 type0=None
+  filesDisabled.NoneType=None
+  flightProgram.str='International Space Station (ISS)'
+  funding.str=''
+  hypothesis.str='BASS experiments were based on the hypothesis that materials in microgravity, with adequate ventilation, burn as well if not better than the same material in no...'
+  identifiers.list n=0 type0=None
+  images.list n=0 type0=None
+  investigationAcronym.str='BASS'
+  investigationEndDate.str='06-30-2013'
+  investigationStartDate.str='10-01-2009'
+  licenseIdentifier.str='CC0-1.0'
+  licenseLink.str='https://spdx.org/licenses/CC0-1.0.html'
+================================================================================
+PSI-98_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-98.json
+dict keys=['accession', 'acknowledgments', 'added', 'approach', 'assays', 'contacts', 'description', 'dirty', 'doi', 'experimentHardware', 'experimentHardwareLink', 'experimentalTable', 'experiments', 'factors', 'filesDisabled', 'flightProgram', 'funding', 'hypothesis', 'identifiers', 'images', 'investigationAcronym', 'investigationEndDate', 'investigationStartDate', 'licenseIdentifier', 'licenseLink', 'licenseName', 'managingNasaCenter', 'missionEnd', 'missionLink', 'missionName', 'missionStart', 'modified', 'modifiedDate', 'objective', 'organizations', 'payloads', 'projectIdentifier', 'projectLink', 'projectTitle', 'projectType'] n=61
+  accession.str='PSI-98'
+  acknowledgments.str=''
+  added.list n=74 type0=dict
+  added.  [0].dict keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=18
+  approach.str='The Saffire-1 experiments was performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. The sample material for Saffire-I is a...'
+  assays.list n=0 type0=None
+  contacts.list n=1 type0=dict
+  contacts.  [0].dict keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles'] n=11
+  description.str=''
+  dirty.bool=False
+  doi.str='10.60555/0t15-1z43'
+  experimentHardware.str='Saffire 1 enclosure in Cygnus'
+  experimentHardwareLink.str='https://www1.grc.nasa.gov/space/iss-research/msg/saffire/'
+  experimentalTable.list n=1 type0=dict
+  experimentalTable.  [0].dict keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=15
+  experiments.list n=0 type0=None
+  factors.list n=0 type0=None
+  filesDisabled.NoneType=None
+  flightProgram.str='International Space Station (ISS)'
+  funding.str='NASA'
+  hypothesis.str='This investigation hypothesizes that due to large differences between fire behavior in normal and reduced gravity, the use of terrestrial fires and fire standar...'
+  identifiers.list n=0 type0=None
+  images.list n=0 type0=None
+  investigationAcronym.str='SAFFIRE-I'
+  investigationEndDate.str='02-28-2008'
+  investigationStartDate.str='03-02-2001'
+  licenseIdentifier.str='CC0-1.0'
+  licenseLink.str='https://spdx.org/licenses/CC0-1.0.html'
+================================================================================
+PSI-99_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-99.json
+dict keys=['accession', 'acknowledgments', 'added', 'approach', 'assays', 'contacts', 'description', 'dirty', 'doi', 'experimentHardware', 'experimentHardwareLink', 'experimentalTable', 'experiments', 'factors', 'filesDisabled', 'flightProgram', 'funding', 'hypothesis', 'identifiers', 'images', 'investigationAcronym', 'investigationEndDate', 'investigationStartDate', 'licenseIdentifier', 'licenseLink', 'licenseName', 'managingNasaCenter', 'missionEnd', 'missionLink', 'missionName', 'missionStart', 'modified', 'modifiedDate', 'objective', 'organizations', 'payloads', 'projectIdentifier', 'projectLink', 'projectTitle', 'projectType'] n=61
+  accession.str='PSI-99'
+  acknowledgments.str=''
+  added.list n=0 type0=None
+  approach.str='The Saffire-II experiment was performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on to the Saffire-I invest...'
+  assays.list n=0 type0=None
+  contacts.list n=2 type0=dict
+  contacts.  [0].dict keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles'] n=11
+  description.str=''
+  dirty.bool=False
+  doi.str='10.60555/2chp-m469'
+  experimentHardware.str='Cygnus Pressurized Cargo Module, SAFFIRE'
+  experimentHardwareLink.str='https://cdn.northropgrumman.com/-/media/wp-content/uploads/Cygnus-Fact-Sheet-1.pdf, https://ntrs.nasa.gov/api/citations/20170000230/downloads/20170000230.pdf'
+  experimentalTable.list n=1 type0=dict
+  experimentalTable.  [0].dict keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible'] n=15
+  experiments.list n=0 type0=None
+  factors.list n=0 type0=None
+  filesDisabled.NoneType=None
+  flightProgram.str='Cygnus Spacecraft'
+  funding.str='NASA'
+  hypothesis.str='This investigation hypothesizes that due to large differences between fire behavior in normal and reduced gravity, the use of terrestrial fires and fire standar...'
+  identifiers.list n=0 type0=None
+  images.list n=0 type0=None
+  investigationAcronym.str='SAFFIRE-II'
+  investigationEndDate.str='04-01-2017'
+  investigationStartDate.str='09-30-2016'
+  licenseIdentifier.str='CC0-1.0'
+  licenseLink.str='https://spdx.org/licenses/CC0-1.0.html'

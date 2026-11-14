@@ -1,0 +1,18 @@
+ensions=[],this.filterMetadata=!0,this.s3MetadataOptions=[Lv.Size,Lv.LastModified],this.title="Study Files",this.userStorage={enabled:!1},this.startingFilePath="genelab-data/",this.getAllFiles=(r,o,a,l,c)=>this.editorService.postFileCustomEndpoint("/files/v2",{folder:r,fileType:o,studyId:a,version:l,obfuscationcode:c}),this.getFilesList=(r,o,a)=>(console.error("This function getFilesList is not supported in the Data Repository."),Se({files:[]})),this.s3Bucket="genelab-repo-stage",this.fileQuery=
+
+NEEDLE fileTree count=0
+
+
+NEEDLE currentFiles count=0
+
+
+NEEDLE studyFiles count=0
+
+
+NEEDLE datamanager count=0
+
+
+NEEDLE psi-data count=0
+
+
+NEEDLE listFiles count=0

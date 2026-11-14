@@ -1,9 +1,10 @@
 import React from 'react';
-import { ExternalLink, Tag, ShieldAlert, Radio, Flame, Sparkles } from 'lucide-react';
-import { InvestigationPreview } from '../../types';
+import { ArrowRight, Calendar, Database, FileText, HardDrive, Tag } from 'lucide-react';
+import { InvestigationSummary } from '../../types';
+import { formatDateRange, formatNumber } from '../../utils/format';
 
 interface InvestigationCardProps {
-  investigation: InvestigationPreview;
+  investigation: InvestigationSummary;
   onViewDetails: (id: string) => void;
 }
 
@@ -11,77 +12,94 @@ export const InvestigationCard: React.FC<InvestigationCardProps> = ({
   investigation,
   onViewDetails,
 }) => {
-  const getCategoryBadge = () => {
-    switch (investigation.category) {
-      case 'prevention':
-        return (
-          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono bg-[#35C6E8]/10 text-[#35C6E8] border border-[#35C6E8]/20">
-            <ShieldAlert className="w-3 h-3" />
-            Prevention
-          </span>
-        );
-      case 'detection':
-        return (
-          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono bg-sky-400/10 text-sky-400 border border-sky-400/20">
-            <Radio className="w-3 h-3" />
-            Detection
-          </span>
-        );
-      case 'suppression':
-        return (
-          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono bg-[#FF914D]/10 text-[#FF914D] border border-[#FF914D]/20">
-            <Flame className="w-3 h-3" />
-            Suppression
-          </span>
-        );
-    }
-  };
+  const hasInventory = investigation.file_inventory_available;
+  const remoteSize = investigation.storage?.remote_inventory_size_human;
 
   return (
-    <div className="flex flex-col justify-between p-5 rounded-lg bg-[#111E30] border border-[#243449] hover:border-[#35C6E8]/60 transition-all group">
+    <div className="group flex h-full flex-col justify-between rounded-lg border border-[#243449] bg-[#111E30] p-5 transition-all hover:border-[#35C6E8]/60">
       <div>
-        <div className="flex items-center justify-between gap-2 mb-2">
-          {getCategoryBadge()}
-          {investigation.accessionId ? (
-            <span className="text-[11px] font-mono text-[#94A3B8] bg-[#0C1626] px-2 py-0.5 rounded border border-[#243449]">
-              ID: {investigation.accessionId}
-            </span>
-          ) : (
-            <span className="text-[10px] font-mono text-[#94A3B8] italic">
-              NASA PSI
+        <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+          <span className="rounded border border-[#35C6E8]/25 bg-[#35C6E8]/10 px-2 py-0.5 font-mono text-[11px] font-medium text-[#35C6E8]">
+            {investigation.investigation_id}
+          </span>
+          <span className="font-mono text-[10px] uppercase tracking-wider text-[#64748B]">
+            {investigation.research_area ?? 'NASA PSI'}
+          </span>
+        </div>
+
+        <h4 className="mb-1 line-clamp-2 text-base font-semibold leading-snug text-[#F4F7FB] transition-colors group-hover:text-[#35C6E8]">
+          {investigation.title}
+        </h4>
+        {investigation.acronym && (
+          <p className="mb-3 font-mono text-xs text-[#FF914D]">{investigation.acronym}</p>
+        )}
+
+        <p className="mb-4 line-clamp-3 text-xs leading-relaxed text-[#94A3B8]">
+          {investigation.description?.objectives ||
+            investigation.description?.approach ||
+            'No objective description is available in the NASA PSI metadata for this investigation.'}
+        </p>
+
+        <div className="mb-4 flex flex-wrap gap-x-4 gap-y-1.5 font-mono text-[11px] text-[#64748B]">
+          <span className="inline-flex items-center gap-1.5">
+            <Calendar className="h-3 w-3" />
+            {formatDateRange(investigation.start_date_iso, investigation.end_date_iso)}
+          </span>
+          {investigation.flight_platform && (
+            <span className="inline-flex items-center gap-1.5">
+              <Tag className="h-3 w-3" />
+              <span className="truncate">{investigation.flight_platform}</span>
             </span>
           )}
         </div>
 
-        <h4 className="text-base font-semibold text-[#F4F7FB] group-hover:text-[#35C6E8] transition-colors mb-2 line-clamp-1">
-          {investigation.title}
-        </h4>
-
-        <p className="text-xs text-[#94A3B8] leading-relaxed mb-4 line-clamp-3">
-          {investigation.description}
-        </p>
-
-        {investigation.facility && (
-          <div className="flex items-center gap-1.5 text-[11px] font-mono text-[#64748B] mb-4">
-            <Tag className="w-3 h-3" />
-            <span>Facility: {investigation.facility}</span>
+        {hasInventory ? (
+          <div className="grid grid-cols-3 gap-2 rounded-md border border-[#243449]/70 bg-[#0C1626]/60 p-2.5 text-center">
+            <div>
+              <p className="font-mono text-sm font-semibold text-[#F4F7FB]">
+                {formatNumber(investigation.dataset_count)}
+              </p>
+              <p className="text-[10px] uppercase tracking-wide text-[#64748B]">Groups</p>
+            </div>
+            <div>
+              <p className="font-mono text-sm font-semibold text-[#F4F7FB]">
+                {formatNumber(investigation.file_count)}
+              </p>
+              <p className="text-[10px] uppercase tracking-wide text-[#64748B]">Files</p>
+            </div>
+            <div>
+              <p className="font-mono text-sm font-semibold text-[#35C6E8]">
+                {remoteSize ?? '—'}
+              </p>
+              <p className="text-[10px] uppercase tracking-wide text-[#64748B]">Remote</p>
+            </div>
+          </div>
+        ) : (
+          <div className="flex items-center gap-2 rounded-md border border-dashed border-[#243449] bg-[#0C1626]/40 p-2.5 text-[11px] text-[#64748B]">
+            <HardDrive className="h-3.5 w-3.5 flex-shrink-0" />
+            No audited file inventory yet — metadata only.
           </div>
         )}
       </div>
 
-      <div className="pt-3 border-t border-[#243449]/70 flex items-center justify-between">
-        {investigation.isIllustrative && (
-          <span className="inline-flex items-center gap-1 text-[10px] font-mono text-amber-400/90 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20">
-            <Sparkles className="w-2.5 h-2.5" />
-            Preview Reference
-          </span>
-        )}
+      <div className="mt-4 flex items-center justify-between border-t border-[#243449]/70 pt-3">
+        <span className="inline-flex items-center gap-1.5 text-[10px] font-mono text-[#64748B]">
+          {investigation.audit_level === 'full_audit' ? (
+            <>
+              <Database className="h-3 w-3" /> Full audit
+            </>
+          ) : (
+            <>
+              <FileText className="h-3 w-3" /> Description only
+            </>
+          )}
+        </span>
         <button
-          onClick={() => onViewDetails(investigation.id)}
-          className="ml-auto inline-flex items-center gap-1.5 text-xs font-medium text-[#35C6E8] hover:text-[#F4F7FB] transition-colors"
+          onClick={() => onViewDetails(investigation.investigation_id)}
+          className="inline-flex items-center gap-1.5 text-xs font-medium text-[#35C6E8] transition-colors hover:text-[#F4F7FB]"
         >
-          <span>View Details</span>
-          <ExternalLink className="w-3.5 h-3.5" />
+          View details
+          <ArrowRight className="h-3.5 w-3.5" />
         </button>
       </div>
     </div>

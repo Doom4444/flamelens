@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import {
   LayoutDashboard,
   Search,
+  FolderSearch,
+  HardDrive,
   Scale,
   Sparkles,
   Flame,
@@ -35,6 +37,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
   const navItems: NavItem[] = [
     { name: 'Overview', path: '/overview', icon: LayoutDashboard },
     { name: 'Investigations', path: '/investigations', icon: Search },
+    { name: 'File Explorer', path: '/files', icon: FolderSearch },
+    { name: 'Storage Analytics', path: '/storage', icon: HardDrive },
     { name: 'Comparison Studio', path: '/comparison', icon: Scale },
     { name: 'AI Assistant', path: '/assistant', icon: Sparkles, badge: 'RAG' },
   ];

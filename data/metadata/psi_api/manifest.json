@@ -1,0 +1,77 @@
+{
+  "description": "Read-only snapshot of the official NASA PSI JSON API responses used by the Stage 1 data source audit. Nothing here is a download of scientific data.",
+  "api_base": "https://psi.nasa.gov/geode-py/ws",
+  "captured_at_utc": "2026-11-14T04:26:41.506092+00:00",
+  "snapshots": [
+    {
+      "kind": "investigation",
+      "accession": "PSI-25",
+      "path": "investigations/PSI-25.json",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-25",
+      "fetched_at_utc": "2026-11-14T04:26:41.506092+00:00",
+      "bytes": 680348
+    },
+    {
+      "kind": "investigation",
+      "accession": "PSI-26",
+      "path": "investigations/PSI-26.json",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-26",
+      "fetched_at_utc": "2026-11-14T04:26:43.026520+00:00",
+      "bytes": 190127
+    },
+    {
+      "kind": "investigation",
+      "accession": "PSI-98",
+      "path": "investigations/PSI-98.json",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-98",
+      "fetched_at_utc": "2026-11-14T04:26:44.482649+00:00",
+      "bytes": 134230
+    },
+    {
+      "kind": "investigation",
+      "accession": "PSI-99",
+      "path": "investigations/PSI-99.json",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-99",
+      "fetched_at_utc": "2026-11-14T04:26:46.025877+00:00",
+      "bytes": 10308
+    },
+    {
+      "kind": "investigation",
+      "accession": "PSI-100",
+      "path": "investigations/PSI-100.json",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-100",
+      "fetched_at_utc": "2026-11-14T04:26:47.489229+00:00",
+      "bytes": 148767
+    },
+    {
+      "kind": "investigation",
+      "accession": "PSI-101",
+      "path": "investigations/PSI-101.json",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-101",
+      "fetched_at_utc": "2026-11-14T04:26:49.344774+00:00",
+      "bytes": 552733
+    },
+    {
+      "kind": "investigation",
+      "accession": "PSI-102",
+      "path": "investigations/PSI-102.json",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-102",
+      "fetched_at_utc": "2026-11-14T04:26:50.833927+00:00",
+      "bytes": 135432
+    },
+    {
+      "kind": "search",
+      "path": "search_combustion.json",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/repo/search?term=combustion&size=100",
+      "fetched_at_utc": "2026-11-14T04:28:25.181942+00:00",
+      "bytes": 194567
+    },
+    {
+      "kind": "search",
+      "path": "search_accessions.json",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/repo/search?term=combustion&size=100",
+      "fetched_at_utc": "2026-11-14T04:28:25.185621+00:00",
+      "bytes": 23567
+    }
+  ]
+}
