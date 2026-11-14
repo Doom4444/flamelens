@@ -1,0 +1,55 @@
+{
+    "report_generated_at": "2026-11-14T09:49:11.919155+00:00",
+    "run_id": "20261114_094851_672081",
+    "mode": "initial",
+    "dry_run": false,
+    "status": "completed",
+    "started_at": "2026-11-14T09:48:51.672113+00:00",
+    "finished_at": "2026-11-14T09:49:11.918733+00:00",
+    "investigations_discovered": 1,
+    "investigations_scanned": 1,
+    "investigations_completed": 1,
+    "investigations_partial": 0,
+    "investigations_failed": 0,
+    "files_found": 1,
+    "files_downloaded": 1,
+    "unchanged_files": 0,
+    "downloaded_mb": 0.009,
+    "pending_approval": [],
+    "errors": [],
+    "investigations": [
+        {
+            "investigation_id": "PSI-62",
+            "name": "Concurrent Flame Spread Modeling using Flamelet Generated Manifolds in Microgravity with Comparison to BASS Experiments using Two-Color Tomography",
+            "status": "completed",
+            "files_found": 1,
+            "downloaded_files": 1,
+            "unchanged_files": 0,
+            "downloaded_mb": 0.009,
+            "pending_approval": [],
+            "errors": [],
+            "budget": {
+                "limit_mb": 500,
+                "raw_auto_overrun_mb": 5,
+                "starting_usage_mb": 0.0,
+                "actual_usage_mb": 0.009,
+                "remaining_mb": 499.991,
+                "over_limit_mb": 0.0,
+                "within_standard_budget": true,
+                "within_absolute_budget": true,
+                "raw_selection": {
+                    "selected_files": 0,
+                    "skipped_files": 0,
+                    "selected_advertised_size_mb": 0,
+                    "used_overrun": false,
+                    "overrun_file": null,
+                    "overrun_file_key": null
+                }
+            },
+            "started_at": "2026-11-14T09:48:53.823513+00:00",
+            "finished_at": "2026-11-14T09:49:11.795205+00:00",
+            "scrape_status": "completed",
+            "download_status": "completed"
+        }
+    ]
+}
