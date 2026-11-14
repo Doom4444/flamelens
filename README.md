@@ -333,10 +333,22 @@ Start the backend:
 uvicorn app.main:app --reload
 ```
 
+Run automated backend tests:
+
+```bash
+pytest
+```
+
 API documentation:
 
 ```text
 http://localhost:8000/docs
+```
+
+API Health Telemetry:
+
+```text
+http://localhost:8000/api/v1/health
 ```
 
 ### 4. Frontend Setup
@@ -350,13 +362,33 @@ npm install
 npm run dev
 ```
 
+Build and type-check:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
 Frontend:
 
 ```text
 http://localhost:5173
 ```
 
-### 5. Local Docker Deployment
+### 5. Automated Verification
+
+Run end-to-end integration verification (verifies backend health endpoint, CORS, and frontend shell):
+
+```bash
+python scripts/verify_frontend_integration.py
+```
+
+### 6. Local Docker Deployment
 
 Once Docker configuration is implemented:
 
@@ -465,19 +497,18 @@ FlameLens is designed around several scientific data integrity principles:
 
 The project architecture and repository structure have been initialized.
 
-| Component | Status |
-|---|---|
-| Repository initialization | ✅ Completed |
-| Architecture design | ✅ Defined |
-| Database schema design | ✅ Defined |
-| Team branch setup | 🔄 Initialized |
-| PSI data inventory | 🔄 In progress |
-| Backend implementation | ⏳ Planned |
-| Frontend implementation | ⏳ Planned |
-| Scientific comparison engine | ⏳ Planned |
-| RAG and AI assistant | ⏳ Planned |
-| Cloud deployment | ⏳ Planned |
-| Local Docker deployment | ⏳ Planned |
+| Component | Status | Notes |
+|---|---|---|
+| Repository initialization (Phase 0) | ✅ Completed | Clean modular monolith structure |
+| Architecture & API design | ✅ Documented | Defined in `docs/architecture.md` and `docs/api-contracts.md` |
+| Backend foundation (Phase 1) | ✅ Completed | FastAPI, health telemetry, CORS, logging, custom exceptions (5/5 tests passed) |
+| Frontend foundation (Phase 2) | ✅ Completed | React + TS + Tailwind, responsive mission control shell, Overview dashboard |
+| Local Docker environment (Stage D0) | 🔄 Configured | `docker-compose.yml` with `pgvector:pg16` and backend container |
+| PSI data inventory & scraping (Phase 4) | 🔄 In progress | NASA PSI metadata extractor active in `backend/app/data_pipeline/` |
+| Database infrastructure (Phase 3) | ⏳ Next Milestone | PostgreSQL + pgvector, SQLAlchemy models, Alembic migrations |
+| Scientific comparison engine (Phase 5) | ⏳ Planned | Deterministic parameter mapping & unit conversion |
+| RAG and AI assistant (Phase 6) | ⏳ Planned | Grounded copilot with explicit NASA citations |
+| Cloud deployment (Phase 9) | ⏳ Planned | Render / Vercel / Supabase configuration |
 
 ---
 

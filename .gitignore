@@ -1,102 +1,336 @@
-# ==========================================
-# Python & Environments
-# ==========================================
+# ==========================================================
+# FLAMELENS — ROOT GITIGNORE
+# Python + FastAPI + React + TypeScript + Vite
+# Tailwind CSS + PostCSS + Playwright
+# PostgreSQL + Docker + IDEs
+# ==========================================================
+
+
+# ==========================================================
+# 1. ENVIRONMENT VARIABLES & SECRETS
+# ==========================================================
+
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Local-only environment files
+*.local
+
+# Python environment files
+.envrc
+
+
+# ==========================================================
+# 2. PYTHON / FASTAPI
+# ==========================================================
+
+# Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python packaging
 build/
-develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# Virtual Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# ==========================================
-# FastAPI, Web & Databases
-# ==========================================
-# Local environment variables & secrets
-.env.*
-!.env.example
-
-# Local SQLite databases & logs
-*.db
-*.sqlite3
-*.log
-logs/
-
-# Testing & Type Checking
+# Python test and coverage
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
 .coverage
+.coverage.*
 htmlcov/
 .tox/
+.nox/
+.hypothesis/
 
-# ==========================================
-# Machine Learning & Data Science
-# ==========================================
-# Jupyter Notebooks
+# Python type checking and linting
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.pyright/
+
+# Python debugging
+*.py,cover
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
-# Large Datasets (use DVC or cloud storage instead)
-data/
-datasets/
-*.csv
-*.parquet
-*.feather
-*.h5
-*.hdf5
-*.tfrecord
+# Python application logs
+*.log
+logs/
 
-# Trained Model Weights & Artifacts
-models/
-checkpoints/
+
+# ==========================================================
+# 3. NODE.JS / NPM
+# ==========================================================
+
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# npm cache
+.npm/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node runtime
+pids/
+*.pid
+*.pid.lock
+*.seed
+
+# Node coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# ESLint / Stylelint caches
+.eslintcache
+.stylelintcache
+
+# Yarn / pnpm
+.pnpm-store/
+.pnp.*
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
+
+
+# ==========================================================
+# 4. REACT / VITE / FRONTEND BUILD
+# ==========================================================
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Vite cache
+.vite/
+
+# Vite temporary config files
+vite.config.*.timestamp-*
+
+# Frontend build output
+frontend/dist/
+
+# Frontend local environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# ==========================================================
+# 5. TAILWIND CSS / POSTCSS
+# ==========================================================
+
+# No additional ignore rules required.
+# Tailwind and PostCSS configuration files must be tracked.
+# Generated frontend output is covered by Vite rules above.
+
+
+# ==========================================================
+# 6. PLAYWRIGHT
+# ==========================================================
+
+# Browser test results
+test-results/
+playwright-report/
+blob-report/
+
+# Playwright caches
+playwright/.cache/
+.playwright/
+.local-browsers/
+
+# Browser traces
+*.trace.zip
+
+
+# ==========================================================
+# 7. DATA SCIENCE / MACHINE LEARNING
+# ==========================================================
+
+# Ignore downloaded raw scientific data
+/data/raw/
+
+# Ignore generated processed data
+/data/processed/
+
+# Preserve project metadata and sample data
+!/data/metadata/
+!/data/metadata/**
+!/data/samples/
+!/data/samples/**
+
+# Root-level model weights only
+/models/
+ /checkpoints/
+
+# Model and training artifacts
 *.pkl
 *.joblib
 *.pt
 *.pth
 *.onnx
 *.safetensors
-*.bin
-*.pb
 *.tflite
+*.ckpt
 
-# Experiment Tracking & MLOps
+# Experiment tracking
 mlruns/
 wandb/
-.dvc/cache/
-catboost_info/
 lightning_logs/
+catboost_info/
 
-# ==========================================
-# IDEs & OS Files
-# ==========================================
-.vscode/
-.idea/
+# DVC cache
+.dvc/cache/
+
+
+# ==========================================================
+# 8. DATABASE / POSTGRESQL
+# ==========================================================
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL local dumps
+*.dump
+*.backup
+
+# Database logs
+postgresql.log
+
+
+# ==========================================================
+# 9. DOCKER / LOCAL RUNTIME
+# ==========================================================
+
+# Docker override files containing local configuration
+docker-compose.override.yml
+
+# Local runtime files
+*.pid
+*.sock
+
+
+# ==========================================================
+# 10. VISUAL STUDIO CODE
+# ==========================================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+.history/
+
+
+# ==========================================================
+# 11. JETBRAINS IDEs
+# ==========================================================
+
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/**/httpRequests
+.idea/**/caches/
+
+
+# ==========================================================
+# 12. WINDOWS
+# ==========================================================
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+
+# ==========================================================
+# 13. macOS
+# ==========================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.apdisk
+
+
+# ==========================================================
+# 14. EDITORS / TEMPORARY FILES
+# ==========================================================
+
 *.swp
 *.swo
 *~
-.DS_Store
-Thumbs.db
+*.tmp
+*.bak
