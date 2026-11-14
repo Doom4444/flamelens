@@ -100,3 +100,5 @@ lightning_logs/
 *~
 .DS_Store
 Thumbs.db
+# Node modules
+node_modules/
