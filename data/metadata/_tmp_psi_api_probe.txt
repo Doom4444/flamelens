@@ -1,0 +1,156 @@
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-25
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-25
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-25/files
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-25/files
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/files/25
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/meta/25
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+200    12676 application/json                         https://osdr.nasa.gov/osdr/data/osd/files/25
+    {"hits":1,"input":"25","page_number":1,"page_size":25,"page_total":1,"studies":{"OSD-25":{"file_count":29,"study_files":[{"category":"Study Metadata Files","date_created":1721271042.861,"date_updated":1721271042.861,"file_name":"OSD-25_metadata_OSD-25-ISA.zip","file_size":42639,"organization":"OSD",
+200   297477 application/json                         https://osdr.nasa.gov/osdr/data/osd/meta/25
+    {"hits":1,"input":"25","study":{"OSD-25":{"additionalInformation":{"assays":{"a_OSD-25_transcription-profiling_dna-microarray_affymetrix-txt":{"header":[{"encoded":false,"field":"a100000samplename","title":"Sample Name","width":200},{"encoded":false,"field":"a100001protocolref","title":"Protocol REF
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/ws/investigations/PSI-25
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/api/investigations/PSI-25
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-26
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-26
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-26/files
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-26/files
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/files/26
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/meta/26
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+200    29850 application/json                         https://osdr.nasa.gov/osdr/data/osd/files/26
+    {"hits":1,"input":"26","page_number":1,"page_size":25,"page_total":1,"studies":{"OSD-26":{"file_count":69,"study_files":[{"category":"Study Metadata Files","date_created":1773211388.979,"date_updated":1773211388.979,"file_name":"OSD-26_metadata_OSD-26-ISA.zip","file_size":26922,"organization":"OSD",
+200    56032 application/json                         https://osdr.nasa.gov/osdr/data/osd/meta/26
+    {"hits":1,"input":"26","study":{"OSD-26":{"comments":[],"ontologySourceReferences":[{"comments":[],"description":"Sequence Types and Features Ontology","file":"","name":"SO","version":"281"},{"comments":[],"description":"National Center for Biotechnology Information (NCBI) Organismal Classification"
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/ws/investigations/PSI-26
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/api/investigations/PSI-26
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-98
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-98
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-98/files
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-98/files
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/files/98
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/meta/98
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+200   111221 application/json                         https://osdr.nasa.gov/osdr/data/osd/files/98
+    {"hits":1,"input":"98","page_number":1,"page_size":25,"page_total":1,"studies":{"OSD-98":{"file_count":234,"study_files":[{"category":"Study Metadata Files","date_created":1771563330.321,"date_updated":1771563330.321,"file_name":"OSD-98_metadata_OSD-98-ISA.zip","file_size":98982,"organization":"OSD"
+200   223109 application/json                         https://osdr.nasa.gov/osdr/data/osd/meta/98
+    {"hits":1,"input":"98","study":{"OSD-98":{"comments":[],"ontologySourceReferences":[{"comments":[],"description":"National Center for Biotechnology Information (NCBI) Organismal Classification","file":"http://data.bioontology.org/ontologies/NCBITAXON","name":"NCBITAXON","version":"2"},{"comments":[]
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/ws/investigations/PSI-98
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/api/investigations/PSI-98
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-99
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-99
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-99/files
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-99/files
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/files/99
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/meta/99
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+200   118915 application/json                         https://osdr.nasa.gov/osdr/data/osd/files/99
+    {"hits":1,"input":"99","page_number":1,"page_size":25,"page_total":1,"studies":{"OSD-99":{"file_count":251,"study_files":[{"category":"Study Metadata Files","date_created":1771479508.443,"date_updated":1771479508.443,"file_name":"OSD-99_metadata_OSD-99-ISA.zip","file_size":88473,"organization":"OSD"
+200   190455 application/json                         https://osdr.nasa.gov/osdr/data/osd/meta/99
+    {"hits":1,"input":"99","study":{"OSD-99":{"comments":[],"ontologySourceReferences":[{"comments":[],"description":"National Center for Biotechnology Information (NCBI) Organismal Classification","file":"http://data.bioontology.org/ontologies/NCBITAXON","name":"NCBITAXON","version":"2"},{"comments":[]
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/ws/investigations/PSI-99
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/api/investigations/PSI-99
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-100
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-100
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-100/files
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-100/files
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/files/100
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/meta/100
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+200   120262 application/json                         https://osdr.nasa.gov/osdr/data/osd/files/100
+    {"hits":1,"input":"100","page_number":1,"page_size":25,"page_total":1,"studies":{"OSD-100":{"file_count":251,"study_files":[{"category":"Study Metadata Files","date_created":1777094355.373,"date_updated":1777094355.373,"file_name":"OSD-100_metadata_OSD-100-ISA.zip","file_size":75613,"organization":"
+200   195927 application/json                         https://osdr.nasa.gov/osdr/data/osd/meta/100
+    {"hits":1,"input":"100","study":{"OSD-100":{"comments":[],"ontologySourceReferences":[{"comments":[],"description":"National Center for Biotechnology Information (NCBI) Organismal Classification","file":"http://data.bioontology.org/ontologies/NCBITAXON","name":"NCBITAXON","version":"2"},{"comments":
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/ws/investigations/PSI-100
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/api/investigations/PSI-100
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-101
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-101
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-101/files
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-101/files
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/files/101
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/meta/101
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+200   123112 application/json                         https://osdr.nasa.gov/osdr/data/osd/files/101
+    {"hits":1,"input":"101","page_number":1,"page_size":25,"page_total":1,"studies":{"OSD-101":{"file_count":268,"study_files":[{"category":"Study Metadata Files","date_created":1771394397.408,"date_updated":1771394397.408,"file_name":"OSD-101_metadata_OSD-101-ISA.zip","file_size":102344,"organization":
+200   283606 application/json                         https://osdr.nasa.gov/osdr/data/osd/meta/101
+    {"hits":1,"input":"101","study":{"OSD-101":{"comments":[],"ontologySourceReferences":[{"comments":[],"description":"","file":"","name":"EFO","version":""},{"comments":[],"description":"NCI Thesaurus OBO Edition","file":"http://purl.obolibrary.org/obo/ncit.owl","name":"","version":"18.10e"},{"comment
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/ws/investigations/PSI-101
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/api/investigations/PSI-101
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-102
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-102
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+403      138 application/json                         https://psi.nasa.gov/geode-py/ws/studies/PSI-102/files
+    {"message": "You don't have the permission to access the requested resource. It is either read-protected or not readable by the server."} 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/investigations/PSI-102/files
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/files/102
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/osd/meta/102
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+200   123088 application/json                         https://osdr.nasa.gov/osdr/data/osd/files/102
+    {"hits":1,"input":"102","page_number":1,"page_size":25,"page_total":1,"studies":{"OSD-102":{"file_count":268,"study_files":[{"category":"Study Metadata Files","date_created":1771393862.907,"date_updated":1771393862.907,"file_name":"OSD-102_metadata_OSD-102-ISA.zip","file_size":106290,"organization":
+200   280856 application/json                         https://osdr.nasa.gov/osdr/data/osd/meta/102
+    {"hits":1,"input":"102","study":{"OSD-102":{"comments":[],"ontologySourceReferences":[{"comments":[],"description":"National Center for Biotechnology Information (NCBI) Organismal Classification","file":"http://data.bioontology.org/ontologies/NCBITAXON","name":"NCBITAXON","version":"2"},{"comments":
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/ws/investigations/PSI-102
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/physci/api/investigations/PSI-102
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+404      232 text/html; charset=utf-8                 https://psi.nasa.gov/geode-py/ws/search
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"> <title>404 Not Found</title> <h1>Not Found</h1> <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p> 
+404      196 text/html; charset=iso-8859-1            https://psi.nasa.gov/osdr/data/search
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html> 
+200    31525 application/json                         https://osdr.nasa.gov/osdr/data/search?term=PSI-25&type=cgene
+    {"took": 3, "timed_out": false, "_shards": {"total": 5, "successful": 5, "skipped": 0, "failed": 0}, "hits": {"total": 2, "max_score": 6.058239, "hits": [{"_index": "study", "_type": "docs", "_id": "N5laCpQBshXIgv93IeyA", "_score": 6.058239, "_source": {"Space Program": "NASA, NIH", "Flight Program"
+200    20575 application/json                         https://osdr.nasa.gov/osdr/data/search?term=BASS-II
+    {"took": 3, "timed_out": false, "_shards": {"total": 5, "successful": 5, "skipped": 0, "failed": 0}, "hits": {"total": 7, "max_score": 17.53138, "hits": [{"_index": "study", "_type": "docs", "_id": "GSE85054", "_score": 17.53138, "_source": {"Space Program": "", "Flight Program": "", "Study Assay Me
+200      954 text/html; charset=utf-8                 https://psi.nasa.gov/physci/repo/search?q=combustion&data_source=psi&data_type=investigation
+    <!doctype html> <html lang="en">   <head>     <base href="/physci/repo/"/>     <meta charset="utf-8"/>     <meta name="CSP-NONCE" content="EVXHn1q6kuDz4KTJJ/An3MMa"/>     <title>NASA PSI</title>     <meta name="viewport" content="width=device-width, initial-scale=1"/>     <link rel="shortcut icon" h
+200      243 application/xml                          https://nasa-psi.s3.us-west-2.amazonaws.com/?list-type=2&prefix=PSI-25&max-keys=20
+    <?xml version="1.0" encoding="UTF-8"?> <ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>nasa-psi</Name><Prefix>PSI-25</Prefix><KeyCount>0</KeyCount><MaxKeys>20</MaxKeys><IsTruncated>false</IsTruncated></ListBucketResult>
+200      240 application/xml                          https://nasa-psi.s3.us-west-2.amazonaws.com/?prefix=PSI-25
+    <?xml version="1.0" encoding="UTF-8"?> <ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>nasa-psi</Name><Prefix>PSI-25</Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated></ListBucketResult>
+200    26154 image/png                                https://psi.nasa.gov/geode-py/ws/investigations/PSI-25/image
+    �PNG     IHDR   �   �   [y!F   gAMA  ���a   KiCCPsRGB IEC61966-2.1  H��SgTS�=���BK���KoR RB��Ti�� ��@숨���"�q����"��A��y(��(6T��}��7o����9g��}> F`�D���dJ� <6.'w T ��@�-�� ����� ���m@  n���8�P��  $ ����B � 2r2 2  �t� %  [�j ;e�O v�$� �(S*@� @&�� � X��

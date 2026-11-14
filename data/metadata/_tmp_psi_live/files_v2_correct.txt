@@ -1,0 +1,12 @@
+400 54 {'folder': 'psi-data/PSI-25', 'fileType': '', 'studyId': 'PSI-25', 'version': 4, 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': 'psi-data/PSI-25/', 'fileType': '', 'studyId': 'PSI-25', 'version': 4, 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': 'genelab-data/PSI-25', 'fileType': '', 'studyId': 'PSI-25', 'version': 4, 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': 'PSI-25', 'fileType': '', 'studyId': 'PSI-25', 'version': 4, 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': 'psi-data/PSI-25', 'fileType': 'all', 'studyId': 'PSI-25', 'version': 4, 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': 'psi-data/PSI-25', 'fileType': None, 'studyId': 'PSI-25', 'version': 4, 'obfuscationcode': None} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': 'psi-data/PSI-25', 'fileType': 'folder', 'studyId': 'PSI-25', 'version': 4, 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': '', 'fileType': '', 'studyId': 'PSI-25', 'version': 4, 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': 'psi-data/', 'fileType': '', 'studyId': 'PSI-25', 'version': '', 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': 'psi-data/PSI-25', 'fileType': '', 'studyId': 'PSI-25', 'version': '4', 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+400 54 {'folder': 'psi-data/PSI-99', 'fileType': '', 'studyId': 'PSI-99', 'version': 5, 'obfuscationcode': ''} {"message": "Validation Failure : Invalid File Type"} 
+EXP 200 text/html; charset=utf-8 'https://psi-repo-prod.s3.amazonaws.com/psi-data/PSI-25/Experimental%20table/PSI-25_Experimental%20table_BASS-II.csv?versionId=..Z_cQ7ymWFmdISmAvT7c5Gcs7ZHo4N_&response-content-disposition=inline%3B%20filename%3D%22PSI-25_Experimental%20table_BASS-II.csv%22&AWSAccessKeyId=ASIAQKGGXEZETOEHPLNX&Signature=1f%2FWcuExTy6%2FKudVGHLlG7wT3Bk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEMv%2F%2F%2F%2F%2F%2F%2F%'

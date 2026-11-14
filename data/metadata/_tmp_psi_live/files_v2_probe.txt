@@ -1,0 +1,17 @@
+500 37 {'source': 'datamanager', 'accession': 'PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'source': 'datamanager', 'id': 'PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'source': 'datamanager', 'path': 'PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'source': 'datamanager', 'file': 'PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'accession': 'PSI-25', 'source': 'psi'} {"message": "Internal Server Error"} 
+500 37 {'study_id': 'PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'studyId': 'PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'investigationId': 'PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'investigation_id': 'PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'prefix': 'psi-data/PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'prefix': 'PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'s3_path': 'psi-data/PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'bucket': 'psi-repo-prod', 'prefix': 'psi-data/PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'path': 'psi-data/PSI-25'} {"message": "Internal Server Error"} 
+500 37 {'remote_path': 'psi-data/PSI-25'} {"message": "Internal Server Error"} 
+500 37 PSI-25 {"message": "Internal Server Error"} 
+search total=26 hits=26

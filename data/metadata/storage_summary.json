@@ -1,0 +1,897 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-11-14T04:54:57+00:00",
+  "description": "Storage analytics for the audited pilot investigations. Remote inventory size is the sum of file sizes PSI exposes through its API. Local downloaded size is always kept separate. No scientific data files have been downloaded at Stage 1.",
+  "units": {
+    "byte_conversion": "binary: 1 KB = 1024 B, 1 MB = 1024^2 B, 1 GB = 1024^3 B, 1 TB = 1024^4 B",
+    "size_fields_suffix": "_bytes"
+  },
+  "download_policy": {
+    "max_file_size_mb": 100,
+    "max_file_size_bytes": 104857600,
+    "environment_variable": "MAX_FILE_SIZE_MB",
+    "note": "Sizes above the limit are inventoried but never downloaded automatically."
+  },
+  "global": {
+    "investigations_discovered": 26,
+    "investigations_with_file_inventory": 7,
+    "investigations_without_file_inventory": 19,
+    "dataset_groups": 383,
+    "file_counts": {
+      "current_files": 1520,
+      "current_known_size_files": 1520,
+      "current_unknown_size_files": 0,
+      "current_total_size_bytes": 492609577604,
+      "download_eligible_files": 1056,
+      "over_limit_files": 464,
+      "zero_byte_files": 4,
+      "downloaded_files": 0,
+      "historical_removed_files": 768,
+      "historical_removed_total_size_bytes": 80806437644
+    },
+    "remote_inventory_size_bytes": 492609577604,
+    "remote_inventory_size_human": "458.778 GB",
+    "psi_reported_total_file_size_bytes": 509540592871,
+    "psi_reported_total_file_size_human": "474.547 GB",
+    "delta_vs_reported_bytes": -16931015267,
+    "remote_inventory_complete": false,
+    "local_downloaded_size_bytes": 0,
+    "local_downloaded_size_human": "0 B",
+    "pending_download_file_count": 1056,
+    "pending_download_size_bytes": 15393894208,
+    "pending_download_size_human": "14.337 GB",
+    "over_limit_file_count": 464,
+    "over_limit_size_bytes": 477215683396,
+    "over_limit_size_human": "444.442 GB",
+    "unknown_size_file_count": 0,
+    "zero_byte_file_count": 4,
+    "format_distribution": {
+      ".csv": 53,
+      ".doc": 2,
+      ".docx": 10,
+      ".jpg": 1,
+      ".mp4": 420,
+      ".pdf": 235,
+      ".ppt": 5,
+      ".pptx": 81,
+      ".tif": 3,
+      ".xls": 132,
+      ".xlsx": 35,
+      ".xml": 4,
+      ".zip": 539
+    },
+    "format_category_distribution": {
+      "archive": 539,
+      "document": 333,
+      "image": 4,
+      "scientific": 4,
+      "structured": 220,
+      "video": 420
+    }
+  },
+  "investigations": [
+    {
+      "investigation_id": "PSI-25",
+      "title": "Burning and Suppression of Solids - II",
+      "acronym": "BASS-II",
+      "dataset_count": 122,
+      "file_counts": {
+        "total_discovered": 695,
+        "known_remote_size": 695,
+        "unknown_remote_size": 0,
+        "downloaded": 0,
+        "pending_download": 419,
+        "over_limit": 276,
+        "zero_byte": 0,
+        "failed_downloads": 0,
+        "restricted": 0,
+        "invisible": 0
+      },
+      "storage": {
+        "remote_inventory_size_bytes": 274631106141,
+        "remote_inventory_size_human": "255.770 GB",
+        "remote_inventory_complete": true,
+        "remote_inventory_is_known_size_subtotal": false,
+        "psi_reported_total_file_size_bytes": 274631106141,
+        "psi_reported_total_file_size_human": "255.770 GB",
+        "delta_vs_reported_bytes": 0,
+        "local_downloaded_size_bytes": 0,
+        "local_downloaded_size_human": "0 B",
+        "pending_download_size_bytes": 8196397466,
+        "pending_download_size_human": "7.633 GB",
+        "over_limit_size_bytes": 266434708675,
+        "over_limit_size_human": "248.137 GB",
+        "unknown_size_file_count": 0
+      },
+      "format_distribution": {
+        ".csv": 1,
+        ".docx": 2,
+        ".jpg": 1,
+        ".mp4": 296,
+        ".pdf": 127,
+        ".pptx": 1,
+        ".xlsx": 2,
+        ".zip": 265
+      },
+      "format_category_distribution": {
+        "archive": 265,
+        "document": 130,
+        "image": 1,
+        "structured": 3,
+        "video": 296
+      },
+      "largest_files": [
+        {
+          "file_id": "flf_a5a415b97408123d",
+          "filename": "PSI-25_Raw Data_iss040e064265.zip",
+          "size_bytes": 3768112520,
+          "size_human": "3.509 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_8d0e4572ddc42a00",
+          "filename": "PSI-25_Raw Data_iss038e052299.zip",
+          "size_bytes": 3687014302,
+          "size_human": "3.434 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_ec8aa33311b3a2e7",
+          "filename": "PSI-25_Raw Data_iss040e013526.zip",
+          "size_bytes": 3675476822,
+          "size_human": "3.423 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_6861e6ce5408df23",
+          "filename": "PSI-25_Raw Data_iss040e012916.zip",
+          "size_bytes": 3595227763,
+          "size_human": "3.348 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_97e598c5b860d125",
+          "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S182M_TPT7.zip",
+          "size_bytes": 3447183179,
+          "size_human": "3.210 GB",
+          "download_status": "OVER_LIMIT"
+        }
+      ],
+      "historical_removed": {
+        "file_count": 131,
+        "total_size_bytes": 26189378205,
+        "total_size_human": "24.391 GB"
+      },
+      "notes": []
+    },
+    {
+      "investigation_id": "PSI-26",
+      "title": "Burning and Suppression of Solids",
+      "acronym": "BASS",
+      "dataset_count": 42,
+      "file_counts": {
+        "total_discovered": 212,
+        "known_remote_size": 212,
+        "unknown_remote_size": 0,
+        "downloaded": 0,
+        "pending_download": 88,
+        "over_limit": 124,
+        "zero_byte": 0,
+        "failed_downloads": 0,
+        "restricted": 0,
+        "invisible": 0
+      },
+      "storage": {
+        "remote_inventory_size_bytes": 163551372412,
+        "remote_inventory_size_human": "152.319 GB",
+        "remote_inventory_complete": true,
+        "remote_inventory_is_known_size_subtotal": false,
+        "psi_reported_total_file_size_bytes": 163551372412,
+        "psi_reported_total_file_size_human": "152.319 GB",
+        "delta_vs_reported_bytes": 0,
+        "local_downloaded_size_bytes": 0,
+        "local_downloaded_size_human": "0 B",
+        "pending_download_size_bytes": 1355364563,
+        "pending_download_size_human": "1.262 GB",
+        "over_limit_size_bytes": 162196007849,
+        "over_limit_size_human": "151.057 GB",
+        "unknown_size_file_count": 0
+      },
+      "format_distribution": {
+        ".csv": 1,
+        ".docx": 1,
+        ".mp4": 114,
+        ".pdf": 32,
+        ".pptx": 2,
+        ".xlsx": 2,
+        ".zip": 60
+      },
+      "format_category_distribution": {
+        "archive": 60,
+        "document": 35,
+        "structured": 3,
+        "video": 114
+      },
+      "largest_files": [
+        {
+          "file_id": "flf_76961717f5ae1024",
+          "filename": "PSI-26_Raw Data_2012_05_12_orig.zip",
+          "size_bytes": 8997566948,
+          "size_human": "8.380 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_a6bf338cd2c0a44a",
+          "filename": "PSI-26_Raw Data_2012_07_12.zip",
+          "size_bytes": 8583694205,
+          "size_human": "7.994 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_286f6e71d049d437",
+          "filename": "PSI-26_Raw Data_2013_04_24_orig.zip",
+          "size_bytes": 8245752246,
+          "size_human": "7.679 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_2564325354eeb223",
+          "filename": "PSI-26_Raw Data_2012_06_19_orig.zip",
+          "size_bytes": 7983112981,
+          "size_human": "7.435 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_ea6de9fd6c9777cb",
+          "filename": "PSI-26_Raw Data_2012_08_22_orig.zip",
+          "size_bytes": 7913217716,
+          "size_human": "7.370 GB",
+          "download_status": "OVER_LIMIT"
+        }
+      ],
+      "historical_removed": {
+        "file_count": 24,
+        "total_size_bytes": 5889117,
+        "total_size_human": "5.616 MB"
+      },
+      "notes": []
+    },
+    {
+      "investigation_id": "PSI-98",
+      "title": "Spacecraft Fire Safety Experiment-I",
+      "acronym": "SAFFIRE-I",
+      "dataset_count": 16,
+      "file_counts": {
+        "total_discovered": 76,
+        "known_remote_size": 76,
+        "unknown_remote_size": 0,
+        "downloaded": 0,
+        "pending_download": 57,
+        "over_limit": 19,
+        "zero_byte": 0,
+        "failed_downloads": 0,
+        "restricted": 0,
+        "invisible": 0
+      },
+      "storage": {
+        "remote_inventory_size_bytes": 12250599959,
+        "remote_inventory_size_human": "11.409 GB",
+        "remote_inventory_complete": true,
+        "remote_inventory_is_known_size_subtotal": false,
+        "psi_reported_total_file_size_bytes": 12250600201,
+        "psi_reported_total_file_size_human": "11.409 GB",
+        "delta_vs_reported_bytes": -242,
+        "local_downloaded_size_bytes": 0,
+        "local_downloaded_size_human": "0 B",
+        "pending_download_size_bytes": 1359474962,
+        "pending_download_size_human": "1.266 GB",
+        "over_limit_size_bytes": 10891124997,
+        "over_limit_size_human": "10.143 GB",
+        "unknown_size_file_count": 0
+      },
+      "format_distribution": {
+        ".csv": 1,
+        ".docx": 3,
+        ".pdf": 6,
+        ".xlsx": 4,
+        ".zip": 62
+      },
+      "format_category_distribution": {
+        "archive": 62,
+        "document": 9,
+        "structured": 5
+      },
+      "largest_files": [
+        {
+          "file_id": "flf_0944e4a116eb59fd",
+          "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg2png_icmad_part1.zip",
+          "size_bytes": 1496417130,
+          "size_human": "1.394 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_47955e8faadc82b9",
+          "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg2png_icmad_part2.zip",
+          "size_bytes": 1241540148,
+          "size_human": "1.156 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_ba18566d4f2d4f41",
+          "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg2png_icmad_part2.zip",
+          "size_bytes": 1239632015,
+          "size_human": "1.154 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_9d3a8e0983d90e1b",
+          "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg2png_icmad_part1.zip",
+          "size_bytes": 1132279391,
+          "size_human": "1.055 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_4156aecec7b7b9df",
+          "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg2png_icmad_part3.zip",
+          "size_bytes": 1126949990,
+          "size_human": "1.050 GB",
+          "download_status": "OVER_LIMIT"
+        }
+      ],
+      "historical_removed": {
+        "file_count": 85,
+        "total_size_bytes": 12265492754,
+        "total_size_human": "11.423 GB"
+      },
+      "notes": [
+        "Minor unexplained delta between summed file sizes and PSI's reported total (<= 1 MiB); no files appear to be missing.",
+        "PSI reports the same start/end dates as PSI-102 (2001-03-02 to 2008-02-28), which conflicts with the 2016 Saffire-I flight described in the investigation text; treated as a PSI metadata anomaly."
+      ]
+    },
+    {
+      "investigation_id": "PSI-99",
+      "title": "Spacecraft Fire Experiment-II",
+      "acronym": "SAFFIRE-II",
+      "dataset_count": 2,
+      "file_counts": {
+        "total_discovered": 2,
+        "known_remote_size": 2,
+        "unknown_remote_size": 0,
+        "downloaded": 0,
+        "pending_download": 2,
+        "over_limit": 0,
+        "zero_byte": 0,
+        "failed_downloads": 0,
+        "restricted": 0,
+        "invisible": 0
+      },
+      "storage": {
+        "remote_inventory_size_bytes": 12512,
+        "remote_inventory_size_human": "12.219 KB",
+        "remote_inventory_complete": false,
+        "remote_inventory_is_known_size_subtotal": true,
+        "psi_reported_total_file_size_bytes": 16931016137,
+        "psi_reported_total_file_size_human": "15.768 GB",
+        "delta_vs_reported_bytes": -16931003625,
+        "local_downloaded_size_bytes": 0,
+        "local_downloaded_size_human": "0 B",
+        "pending_download_size_bytes": 12512,
+        "pending_download_size_human": "12.219 KB",
+        "over_limit_size_bytes": 0,
+        "over_limit_size_human": "0 B",
+        "unknown_size_file_count": 0
+      },
+      "format_distribution": {
+        ".csv": 1,
+        ".zip": 1
+      },
+      "format_category_distribution": {
+        "archive": 1,
+        "structured": 1
+      },
+      "largest_files": [
+        {
+          "file_id": "flf_0f912a9edb38de4d",
+          "filename": "PSI-99_metadata_PSI-167_SAFFIRE-II.zip",
+          "size_bytes": 10539,
+          "size_human": "10.292 KB",
+          "download_status": "PENDING"
+        },
+        {
+          "file_id": "flf_10157467289ef8ec",
+          "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+          "size_bytes": 1973,
+          "size_human": "1.927 KB",
+          "download_status": "PENDING"
+        }
+      ],
+      "historical_removed": {
+        "file_count": 0,
+        "total_size_bytes": 0,
+        "total_size_human": "0 B"
+      },
+      "notes": [
+        "PSI reports a total file size far larger than the sum of files exposed by the API; the file listing is incomplete.",
+        "Only the experimental table and a metadata archive are exposed, although the investigation text references a Science document folder that is not listed."
+      ]
+    },
+    {
+      "investigation_id": "PSI-100",
+      "title": "Spacecraft Fire Experiment-III",
+      "acronym": "SAFFIRE-III",
+      "dataset_count": 16,
+      "file_counts": {
+        "total_discovered": 87,
+        "known_remote_size": 87,
+        "unknown_remote_size": 0,
+        "downloaded": 0,
+        "pending_download": 53,
+        "over_limit": 34,
+        "zero_byte": 0,
+        "failed_downloads": 0,
+        "restricted": 0,
+        "invisible": 0
+      },
+      "storage": {
+        "remote_inventory_size_bytes": 35210764689,
+        "remote_inventory_size_human": "32.793 GB",
+        "remote_inventory_complete": true,
+        "remote_inventory_is_known_size_subtotal": false,
+        "psi_reported_total_file_size_bytes": 35210765052,
+        "psi_reported_total_file_size_human": "32.793 GB",
+        "delta_vs_reported_bytes": -363,
+        "local_downloaded_size_bytes": 0,
+        "local_downloaded_size_human": "0 B",
+        "pending_download_size_bytes": 1676254343,
+        "pending_download_size_human": "1.561 GB",
+        "over_limit_size_bytes": 33534510346,
+        "over_limit_size_human": "31.231 GB",
+        "unknown_size_file_count": 0
+      },
+      "format_distribution": {
+        ".csv": 3,
+        ".docx": 3,
+        ".pdf": 7,
+        ".xlsx": 6,
+        ".zip": 68
+      },
+      "format_category_distribution": {
+        "archive": 68,
+        "document": 10,
+        "structured": 9
+      },
+      "largest_files": [
+        {
+          "file_id": "flf_4b743c3387196a8d",
+          "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C2_Raw2TIFF_Map_icmad.zip",
+          "size_bytes": 2671930707,
+          "size_human": "2.488 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_d3681a2eb4a89d68",
+          "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C2_Raw2TIFF_mapped.zip",
+          "size_bytes": 2651468291,
+          "size_human": "2.469 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_9ed34b20c76cba5e",
+          "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C1_Raw2TIFF_Map_icmad.zip",
+          "size_bytes": 2405006306,
+          "size_human": "2.240 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_7ef06622b0a27ce8",
+          "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C1_Raw2TIFF_Mapped.zip",
+          "size_bytes": 2387136643,
+          "size_human": "2.223 GB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_402d7534e10b5a41",
+          "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C2_Raw2TIFF_Map_icmad.zip",
+          "size_bytes": 2004825153,
+          "size_human": "1.867 GB",
+          "download_status": "OVER_LIMIT"
+        }
+      ],
+      "historical_removed": {
+        "file_count": 97,
+        "total_size_bytes": 35286706087,
+        "total_size_human": "32.863 GB"
+      },
+      "notes": [
+        "Minor unexplained delta between summed file sizes and PSI's reported total (<= 1 MiB); no files appear to be missing."
+      ]
+    },
+    {
+      "investigation_id": "PSI-101",
+      "title": "Smoke Aerosol Measurement Experiment-Reflight",
+      "acronym": "SAME-R",
+      "dataset_count": 136,
+      "file_counts": {
+        "total_discovered": 343,
+        "known_remote_size": 343,
+        "unknown_remote_size": 0,
+        "downloaded": 0,
+        "pending_download": 334,
+        "over_limit": 9,
+        "zero_byte": 0,
+        "failed_downloads": 0,
+        "restricted": 0,
+        "invisible": 0
+      },
+      "storage": {
+        "remote_inventory_size_bytes": 6308113713,
+        "remote_inventory_size_human": "5.875 GB",
+        "remote_inventory_complete": true,
+        "remote_inventory_is_known_size_subtotal": false,
+        "psi_reported_total_file_size_bytes": 6308124750,
+        "psi_reported_total_file_size_human": "5.875 GB",
+        "delta_vs_reported_bytes": -11037,
+        "local_downloaded_size_bytes": 0,
+        "local_downloaded_size_human": "0 B",
+        "pending_download_size_bytes": 2457135852,
+        "pending_download_size_human": "2.288 GB",
+        "over_limit_size_bytes": 3850977861,
+        "over_limit_size_human": "3.587 GB",
+        "unknown_size_file_count": 0
+      },
+      "format_distribution": {
+        ".csv": 45,
+        ".doc": 1,
+        ".docx": 1,
+        ".mp4": 8,
+        ".pdf": 36,
+        ".ppt": 2,
+        ".pptx": 76,
+        ".tif": 3,
+        ".xls": 77,
+        ".xlsx": 15,
+        ".zip": 79
+      },
+      "format_category_distribution": {
+        "archive": 79,
+        "document": 116,
+        "image": 3,
+        "structured": 137,
+        "video": 8
+      },
+      "largest_files": [
+        {
+          "file_id": "flf_30a2966928338c3f",
+          "filename": "PSI-101_Raw Data_vlc-record-2010-07-30-14h12m08s-udp___233.1.14.7 _50100-.mp4",
+          "size_bytes": 970563377,
+          "size_human": "925.601 MB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_6a19231e4eb27845",
+          "filename": "PSI-101_Raw Data_vlc-record-2010-07-30-13h25m07s-udp___233.1.14.7 _50100-.mp4",
+          "size_bytes": 970563377,
+          "size_human": "925.601 MB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_341d3fc32db7ed3b",
+          "filename": "PSI-101_Raw Data_3 pyrell vlc-record-2010-09-08-11h37m29s-udp___233.1.14.5 _50000-.mp4",
+          "size_bytes": 463842635,
+          "size_human": "442.355 MB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_d39409b8b586cdbf",
+          "filename": "PSI-101_Raw Data_1 Lampwick vlc-record-2010-09-07-16h18m22s-udp___233.1.14.11 _50300-.mp4",
+          "size_bytes": 303548579,
+          "size_human": "289.486 MB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_7f6477715b0151b2",
+          "filename": "PSI-101_Raw Data_vlc-record-2010-07-30-15h06m31s-udp___233.1.14.7 _50100-.mp4",
+          "size_bytes": 282455755,
+          "size_human": "269.371 MB",
+          "download_status": "OVER_LIMIT"
+        }
+      ],
+      "historical_removed": {
+        "file_count": 379,
+        "total_size_bytes": 6624863611,
+        "total_size_human": "6.170 GB"
+      },
+      "notes": [
+        "Minor unexplained delta between summed file sizes and PSI's reported total (<= 1 MiB); no files appear to be missing."
+      ]
+    },
+    {
+      "investigation_id": "PSI-102",
+      "title": "Smoke and Aerosol Measurement Experiment",
+      "acronym": "SAME",
+      "dataset_count": 49,
+      "file_counts": {
+        "total_discovered": 105,
+        "known_remote_size": 105,
+        "unknown_remote_size": 0,
+        "downloaded": 0,
+        "pending_download": 103,
+        "over_limit": 2,
+        "zero_byte": 4,
+        "failed_downloads": 0,
+        "restricted": 0,
+        "invisible": 0
+      },
+      "storage": {
+        "remote_inventory_size_bytes": 657608178,
+        "remote_inventory_size_human": "627.144 MB",
+        "remote_inventory_complete": true,
+        "remote_inventory_is_known_size_subtotal": false,
+        "psi_reported_total_file_size_bytes": 657608178,
+        "psi_reported_total_file_size_human": "627.144 MB",
+        "delta_vs_reported_bytes": 0,
+        "local_downloaded_size_bytes": 0,
+        "local_downloaded_size_human": "0 B",
+        "pending_download_size_bytes": 349254510,
+        "pending_download_size_human": "333.075 MB",
+        "over_limit_size_bytes": 308353668,
+        "over_limit_size_human": "294.069 MB",
+        "unknown_size_file_count": 0
+      },
+      "format_distribution": {
+        ".csv": 1,
+        ".doc": 1,
+        ".mp4": 2,
+        ".pdf": 27,
+        ".ppt": 3,
+        ".pptx": 2,
+        ".xls": 55,
+        ".xlsx": 6,
+        ".xml": 4,
+        ".zip": 4
+      },
+      "format_category_distribution": {
+        "archive": 4,
+        "document": 33,
+        "scientific": 4,
+        "structured": 62,
+        "video": 2
+      },
+      "largest_files": [
+        {
+          "file_id": "flf_eb3732a975b51e18",
+          "filename": "PSI-102_Engineering Documents_Resistive Heater Coil-TN001.zip",
+          "size_bytes": 168520317,
+          "size_human": "160.713 MB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_00436d89f4687016",
+          "filename": "PSI-102_Engineering Documents_Resistive Heater Coil-TN002.zip",
+          "size_bytes": 139833351,
+          "size_human": "133.355 MB",
+          "download_status": "OVER_LIMIT"
+        },
+        {
+          "file_id": "flf_96e7e02d28b358d1",
+          "filename": "PSI-102_Presentations_SAME_EarlyResults.ppt",
+          "size_bytes": 26546176,
+          "size_human": "25.316 MB",
+          "download_status": "PENDING"
+        },
+        {
+          "file_id": "flf_876e5a1654b8fe2d",
+          "filename": "PSI-102_Engineering Documents_SAME OPS images.zip",
+          "size_bytes": 25024013,
+          "size_human": "23.865 MB",
+          "download_status": "PENDING"
+        },
+        {
+          "file_id": "flf_7497552ad7648ac4",
+          "filename": "PSI-102_Analyzed Data_Silicone GMT255hkp run 5s zgy average.xls",
+          "size_bytes": 12931072,
+          "size_human": "12.332 MB",
+          "download_status": "PENDING"
+        }
+      ],
+      "historical_removed": {
+        "file_count": 52,
+        "total_size_bytes": 434107870,
+        "total_size_human": "413.998 MB"
+      },
+      "notes": [
+        "Four analyzed-data XML files are reported with size 0 B; verify them during the download stage instead of assuming the files are valid."
+      ]
+    }
+  ],
+  "investigations_without_file_inventory": [
+    {
+      "investigation_id": "PSI-22",
+      "title": "Advanced Combustion via Microgravity Experiments Electric-Field Effects on Laminar Diffusion Flames",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-10",
+      "title": "Advanced Combustion via Microgravity Experiments / Flame Design",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-159",
+      "title": "Advanced Combustion via Microgravity Experiments / Cool Flames Investigation with Gases",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-107",
+      "title": "Smoke Point In Co-flow Experiment",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-106",
+      "title": "Structure and Liftoff In Combustion Experiment",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-69",
+      "title": "Flame Extinguishment Experiment",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-39",
+      "title": "Cool Flames Investigation",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-21",
+      "title": "Advanced Combustion via Microgravity Experiments / Coflow Laminar Diffusion Flame",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-68",
+      "title": "Flame Extinguishment Experiment - 2",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-117",
+      "title": "Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics: A Multidimensional Multi-Physics CFD Analysis",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-23",
+      "title": "Advanced Combustion via Microgravity Experiments-Structure and Response of Spherical Diffusion Flames",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-20",
+      "title": "Advanced Combustion via Microgravity Experiments - Burning Rate Emulator",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-142",
+      "title": "Quantitative Studies of Cool Flame Transitions at Radiation / Stretch Extinction Using Counterflow Flames",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-60",
+      "title": "Computational and Experimental Analysis of SPICE Data Sets",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-62",
+      "title": "Concurrent Flame Spread Modeling using Flamelet Generated Manifolds in Microgravity with Comparison to BASS Experiments using Two-Color Tomography",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-115",
+      "title": "Utilization of the Smoke Aerosol Measurement Experiment Data for Advanced Modeling and Simulation of Smoke Generation in Micro-Gravity",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-47",
+      "title": "Dust and Aerosol Measurement Feasibility Test / Dust and Aerosol Measurement Feasibility Test-2",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-181",
+      "title": "Structure and Properties of Pb-Sn and Pb-free Sn-Ag-Cu Solders Produced in Terrestrial vs. Microgravity Environments under Extremes of Elevated and Cryo Temperatures",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    },
+    {
+      "investigation_id": "PSI-108",
+      "title": "Surface Tension Driven Convection Experiment-1",
+      "audit_level": "description_only",
+      "reported_total_file_size_bytes": null
+    }
+  ],
+  "data_gaps": [
+    {
+      "id": "GAP-001",
+      "severity": "high",
+      "investigation_id": "PSI-99",
+      "summary": "API file listing is incomplete relative to PSI's own reported total file size.",
+      "details": "totalFileSize is 16,931,016,137 B (~15.77 GiB), while the API exposes only an experimental table (1,973 B) and metadata archive (10,539 B). 'added' and 'removed' arrays are empty. Raw data, videos and science documents are not listed.",
+      "recommended_action": "Manually inspect the PSI web UI for PSI-99, then re-query the API with an authenticated session or report the gap to PSI."
+    },
+    {
+      "id": "GAP-002",
+      "severity": "medium",
+      "investigation_id": "ALL",
+      "summary": "PSI exposes no dataset entity or dataset-level descriptions.",
+      "details": "Datasets in this audit are FlameLens-derived groups based on filename category and PSI subcategory. They must not be presented as PSI-authored datasets.",
+      "recommended_action": "Carry the derivation flag into the Data Contract and label dataset groups as derived in the UI and API."
+    },
+    {
+      "id": "GAP-003",
+      "severity": "medium",
+      "investigation_id": "ALL",
+      "summary": "Legacy per-file remote_url values are dead.",
+      "details": "Most legacy URLs point to the retired psi.ndc.nasa.gov host (DNS failure); the remaining relative /datamanager/file/... paths return HTTP 404. Files are only retrievable through the /geode-py/ws/studies/{id}/download endpoint, which returns a short-lived signed S3 URL.",
+      "recommended_action": "Use the download endpoint and request a fresh signed URL for every transfer; never persist signed URLs."
+    },
+    {
+      "id": "GAP-004",
+      "severity": "low",
+      "investigation_id": "PSI-98, PSI-100, PSI-101",
+      "summary": "Small unexplained delta between summed file sizes and PSI totalFileSize.",
+      "details": "Deltas are -242 B (PSI-98), -363 B (PSI-100) and -11,037 B (PSI-101), all far below one file; treated as accounting noise rather than missing files.",
+      "recommended_action": "Record the delta in ingestion runs and monitor for growth."
+    },
+    {
+      "id": "GAP-005",
+      "severity": "low",
+      "investigation_id": "19 non-pilot investigations",
+      "summary": "File/dataset inventory exists only for the 7 pilot investigations.",
+      "details": "Nineteen combustion investigations have official descriptions but no file inventory yet.",
+      "recommended_action": "Extend the Stage 4 ingestion pipeline to all 26 investigations."
+    },
+    {
+      "id": "GAP-006",
+      "severity": "low",
+      "investigation_id": "ALL",
+      "summary": "No per-file descriptions are exposed by PSI.",
+      "details": "File objects contain names, sizes, paths and timestamps but no description field.",
+      "recommended_action": "Do not invent file descriptions; derive display labels from filenames only."
+    },
+    {
+      "id": "GAP-007",
+      "severity": "medium",
+      "investigation_id": "PSI-102",
+      "summary": "Four current analyzed-data XML files are reported with size 0 B.",
+      "details": "PSI-102_Analyzed Data_16937___9.xml, 16904___9.xml, 16942___9.xml and 16912___9.xml have file_size 0. Four historical 'removed' files also report 0 B. A zero-byte size may be a PSI metadata placeholder or a genuinely empty file.",
+      "recommended_action": "During Stage 4, request Range: bytes=0-0 for each zero-byte file and record the actual content length; never report a zero-byte download as a successful parse."
+    },
+    {
+      "id": "GAP-008",
+      "severity": "medium",
+      "investigation_id": "PSI-98",
+      "summary": "Investigation dates conflict with the described mission.",
+      "details": "PSI-98 (Saffire-I) reports start 2001-03-02 and end 2008-02-28, identical to PSI-102 (SAME), while its description refers to the 2016 Cygnus flight. PSI-100 also has no end date.",
+      "recommended_action": "Preserve the PSI-reported values verbatim, flag them as unverified, and do not use them for chronological comparisons without manual confirmation."
+    },
+    {
+      "id": "GAP-009",
+      "severity": "low",
+      "investigation_id": "PSI-25, PSI-101",
+      "summary": "Filename inconsistencies distort derived category labels.",
+      "details": "The PSI-25 metadata archive filename references 'PSI-101', and PSI-101 contains a file whose top-level label is 'SAME'. Derived datasets are therefore grouped by filename convention, not by a PSI-issued category.",
+      "recommended_action": "Keep the derivation flag on every dataset and allow manual dataset corrections in the Data Contract without mutating raw PSI metadata."
+    }
+  ]
+}

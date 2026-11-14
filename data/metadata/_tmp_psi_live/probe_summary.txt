@@ -1,0 +1,48 @@
+200   680348 application/json GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-25
+    saved PSI-25_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-25.json
+404      232 text/html; charset=utf-8 GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-25/files
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?investigation=PSI-25
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?accession=PSI-25
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?id=PSI-25
+200   190127 application/json GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-26
+    saved PSI-26_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-26.json
+404      232 text/html; charset=utf-8 GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-26/files
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?investigation=PSI-26
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?accession=PSI-26
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?id=PSI-26
+200   134230 application/json GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-98
+    saved PSI-98_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-98.json
+404      232 text/html; charset=utf-8 GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-98/files
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?investigation=PSI-98
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?accession=PSI-98
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?id=PSI-98
+200    10308 application/json GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-99
+    saved PSI-99_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-99.json
+404      232 text/html; charset=utf-8 GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-99/files
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?investigation=PSI-99
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?accession=PSI-99
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?id=PSI-99
+200   148767 application/json GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-100
+    saved PSI-100_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-100.json
+404      232 text/html; charset=utf-8 GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-100/files
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?investigation=PSI-100
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?accession=PSI-100
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?id=PSI-100
+200   552733 application/json GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-101
+    saved PSI-101_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-101.json
+404      232 text/html; charset=utf-8 GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-101/files
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?investigation=PSI-101
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?accession=PSI-101
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?id=PSI-101
+200   135432 application/json GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-102
+    saved PSI-102_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-102.json
+404      232 text/html; charset=utf-8 GET https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-102/files
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?investigation=PSI-102
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?accession=PSI-102
+405       64 application/json GET https://psi.nasa.gov/geode-py/ws/files/v2?id=PSI-102
+500       37 POST https://psi.nasa.gov/geode-py/ws/files/v2 {"investigation": "PSI-25"} '{"message": "Internal Server Error"}\n'
+500       37 POST https://psi.nasa.gov/geode-py/ws/files/v2 {"accession": "PSI-25"} '{"message": "Internal Server Error"}\n'
+500       37 POST https://psi.nasa.gov/geode-py/ws/files/v2 {"id": "PSI-25"} '{"message": "Internal Server Error"}\n'
+500       37 POST https://psi.nasa.gov/geode-py/ws/files/v2 {"study": "PSI-25"} '{"message": "Internal Server Error"}\n'
+500       37 POST https://psi.nasa.gov/geode-py/ws/files/v2 {"path": "PSI-25"} '{"message": "Internal Server Error"}\n'
+500       37 POST https://psi.nasa.gov/geode-py/ws/files/v2 {"filePath": "PSI-25"} '{"message": "Internal Server Error"}\n'

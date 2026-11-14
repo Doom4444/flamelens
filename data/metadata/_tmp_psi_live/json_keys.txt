@@ -1,0 +1,557 @@
+================================================================================
+PSI-100_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-100.json
+ALL KEYS: accession, acknowledgments, added, approach, assays, contacts, description, dirty, doi, experimentHardware, experimentHardwareLink, experimentalTable, experiments, factors, filesDisabled, flightProgram, funding, hypothesis, identifiers, images, investigationAcronym, investigationEndDate, investigationStartDate, licenseIdentifier, licenseLink, licenseName, managingNasaCenter, missionEnd, missionLink, missionName, missionStart, modified, modifiedDate, objective, organizations, payloads, projectIdentifier, projectLink, projectTitle, projectType, proposalTitle, public, publications, related_glds, releaseDate, removed, researchArea, researchImpacts, restricted, sourceAccession, sourceLink, spaceProgram, subResearchArea, submissionDate, title, totalFileSize, version, versionMessage, versionMessageLevel, versionMessageLocations, versionReason
+  accession: str len=7 'PSI-100'
+  acknowledgments: str len=0 ''
+  added: list n=85
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-100_Engineering Documents_SAFFIRE Offgassing Testing Strategy.pdf', 'PSI-100_Presentations_SAFFIRE_45 I Con of Env Sys presentation.pdf', 'PSI-100_Presentations_SAFFIRE_46th I Con of Env Sys presentation.pdf', 'PSI-100_Presentations_SAFFIRE_47th I Con of Env Sys presentation.pdf', 'PSI-100_Raw Data_SAFFIRE-III_F1C1_Distortion Grid_1200x920.zip', 'PSI-100_Raw Data_SAFFIRE-III_F1C1_Distortion Grid_1360x1024.zip', 'PSI-100_Raw Data_SAFFIRE-III_F1C1_BIT_jpeg.zip', 'PSI-100_Raw Data_SAFFIRE-III_F1C1_F1_jpeg.zip']
+  approach: str len=887 'The Saffire-III experiments were performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on '
+  assays: list n=0
+  contacts: list n=1
+    item_keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles']
+  description: str len=0 ''
+  dirty: bool=False
+  doi: str len=18 '10.60555/040q-4h36'
+  experimentHardware: str len=31 'Saffire III enclosure in Cygnus'
+  experimentHardwareLink: str len=57 'https://www1.grc.nasa.gov/space/iss-research/msg/saffire/'
+  experimentalTable: list n=1
+    item_keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-100_Experimental table_SAFFIRE-3.csv']
+  experiments: list n=0
+  factors: list n=0
+  filesDisabled: NoneType=None
+  flightProgram: str len=33 'International Space Station (ISS)'
+  funding: str len=4 'NASA'
+  hypothesis: str len=792 'This investigation hypothesizes that due to large differences between fire behavior in normal and reduced gravity, the use of terrestrial fi'
+  identifiers: list n=0
+  images: list n=0
+  investigationAcronym: str len=11 'SAFFIRE-III'
+  investigationEndDate: str len=0 ''
+  investigationStartDate: str len=10 '04-18-2017'
+  licenseIdentifier: str len=7 'CC0-1.0'
+  licenseLink: str len=38 'https://spdx.org/licenses/CC0-1.0.html'
+  licenseName: str len=36 'Creative Commons Zero v1.0 Universal'
+  managingNasaCenter: str len=27 'Glenn Research Center (GRC)'
+  missionEnd: str len=0 ''
+  missionLink: str len=0 ''
+  missionName: str len=0 ''
+  missionStart: str len=0 ''
+  modified: list n=1
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'version', 'visible']
+    sample_files=['PSI-100_metadata_PSI-168_SAFFIRE-III.zip']
+  modifiedDate: str len=11 '05-Jun-2025'
+  objective: str len=251 'The objectives of this investigation were to: (1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-'
+  organizations: list n=0
+  payloads: list n=0
+  projectIdentifier: str len=0 ''
+  projectLink: str len=0 ''
+  projectTitle: str len=0 ''
+  projectType: str len=26 'Microgravity Investigation'
+  proposalTitle: str len=0 ''
+  public: bool=True
+  publications: list n=3
+    item_keys=['authorList', 'comments', 'doi', 'pubMedID', 'status', 'title']
+  related_glds: str len=13 'PSI-99,PSI-98'
+  releaseDate: str len=11 '18-Sep-2024'
+  removed: list n=97
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['SAFFIRE Obj, Dev, and Status.pdf', 'SAFFIRE Offgassing Testing Strategy.pdf', 'SAFFIRE_45 I Con of Env Sys presentation.pdf', 'SAFFIRE_45 I Conv of Env Sys paper.pdf', 'SAFFIRE_46th I Con of Env Sys paper.pdf', 'SAFFIRE_46th I Con of Env Sys presentation.pdf', 'SAFFIRE_47th I Con of Env Sys presentation.pdf', 'SAFFIRE-III_F1C1_1200x920.zip']
+  researchArea: str len=18 'Combustion Science'
+  researchImpacts: str len=790 'The Saffire-I experiment provides a new way to study a realistic fire on an exploration vehicle, which has not been possible in the past bec'
+  restricted: bool=False
+  sourceAccession: str len=0 ''
+  sourceLink: str len=0 ''
+  spaceProgram: str len=52 'National Aeronautics and Space Administration (NASA)'
+  subResearchArea: str len=22 'Spacecraft Fire Safety'
+  submissionDate: str len=11 '18-Sep-2024'
+  title: str len=30 'Spacecraft Fire Experiment-III'
+  totalFileSize: float=35210765052.0
+  version: int=4
+  versionMessage: str len=0 ''
+  versionMessageLevel: str len=0 ''
+  versionMessageLocations: list n=0
+  versionReason: str len=15 'Metadata update'
+FILE-LIKE FIELDS: {'added': 85, 'experimentalTable': 1, 'modified': 1, 'removed': 97}
+SPECIAL researchArea: 'Combustion Science'
+SPECIAL title: 'Spacecraft Fire Experiment-III'
+SPECIAL publications: list 3
+SPECIAL version: int 4
+SPECIAL subResearchArea: 'Spacecraft Fire Safety'
+SPECIAL researchImpacts: 'The Saffire-I experiment provides a new way to study a realistic fire on an exploration vehicle, which has not been possible in the past because the risks are too high. Instruments on an unmanned carg'
+================================================================================
+PSI-101_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-101.json
+ALL KEYS: accession, acknowledgments, added, approach, assays, contacts, description, dirty, doi, experimentHardware, experimentHardwareLink, experimentalTable, experiments, factors, filesDisabled, flightProgram, funding, hypothesis, identifiers, images, investigationAcronym, investigationEndDate, investigationStartDate, licenseIdentifier, licenseLink, licenseName, managingNasaCenter, missionEnd, missionLink, missionName, missionStart, modified, modifiedDate, objective, organizations, payloads, projectIdentifier, projectLink, projectTitle, projectType, proposalTitle, public, publications, related_glds, releaseDate, removed, researchArea, researchImpacts, restricted, sourceAccession, sourceLink, spaceProgram, subResearchArea, submissionDate, title, totalFileSize, version, versionMessage, versionMessageLevel, versionMessageLocations, versionReason
+  accession: str len=7 'PSI-101'
+  acknowledgments: str len=0 ''
+  added: list n=342
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-101_Engineering Documents_SAME EIRD Rev 2.00 02-25-05 HIgh Q.pdf', 'PSI-101_Reports_SAME-R_Final Report.pdf', 'PSI-101_Presentations_SAME-2_Comparison of Flight and Ground Test Results.pptx', 'PSI-101_Presentations_SAME-R_Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2.pptx', 'PSI-101_Presentations_SAME_Measurement of Smoke Particle Size under Low-Gravity Conditions.ppt', 'PSI-101_Presentations_Detection of Smoke from Microgravity Fires.ppt', 'PSI-101_Engineering Documents_SAME VPRED Matrix PLN-005 Baseline.xls', 'PSI-101_Engineering Documents_Drawing_SAME Aging Chamber.PDF']
+  approach: str len=893 'SAME-R utilized the SAME hardware used on-orbit. Based on the experience gained from SAME, SAME-R included the following modifications: 1) a'
+  assays: list n=0
+  contacts: list n=6
+    item_keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles']
+  description: str len=0 ''
+  dirty: bool=False
+  doi: str len=18 '10.60555/2np7-jv14'
+  experimentHardware: str len=59 'Comparitive Soot Diagnostic Hardware; Refer to final report'
+  experimentHardwareLink: str len=73 'https://ntrs.nasa.gov/api/citations/19960008413/downloads/19960008413.pdf'
+  experimentalTable: list n=1
+    item_keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-101_Experimental table_SAME-R.csv']
+  experiments: list n=0
+  factors: list n=0
+  filesDisabled: NoneType=None
+  flightProgram: str len=33 'International Space Station (ISS)'
+  funding: str len=0 ''
+  hypothesis: str len=1051 'The three hypotheses that motivated the original SAME investigation is also applicable for the reflight SAME-R investigation: In a μg enviro'
+  identifiers: list n=0
+  images: list n=0
+  investigationAcronym: str len=6 'SAME-R'
+  investigationEndDate: str len=10 '09-30-2010'
+  investigationStartDate: str len=10 '07-01-2010'
+  licenseIdentifier: str len=7 'CC0-1.0'
+  licenseLink: str len=38 'https://spdx.org/licenses/CC0-1.0.html'
+  licenseName: str len=36 'Creative Commons Zero v1.0 Universal'
+  managingNasaCenter: str len=27 'Glenn Research Center (GRC)'
+  missionEnd: str len=0 ''
+  missionLink: str len=0 ''
+  missionName: str len=0 ''
+  missionStart: str len=0 ''
+  modified: list n=0
+  modifiedDate: str len=11 '02-Jun-2025'
+  objective: str len=795 'Similar to the original SAME investigation, the primary objective of the SAME-R investigation was to quantify the sizes that the liquid smok'
+  organizations: list n=0
+  payloads: list n=0
+  projectIdentifier: str len=0 ''
+  projectLink: str len=0 ''
+  projectTitle: str len=0 ''
+  projectType: str len=26 'Microgravity Investigation'
+  proposalTitle: str len=0 ''
+  public: bool=True
+  publications: list n=6
+    item_keys=['authorList', 'comments', 'doi', 'pubMedID', 'status', 'title']
+  related_glds: str len=7 'PSI-102'
+  releaseDate: str len=11 '18-Sep-2024'
+  removed: list n=379
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['SAME EIRD Rev 2.00 02-25-05 HIgh Q.pdf', 'ICES Paper 2005-01-2930 rev.pdf', 'SAMER_Final 0602 2014.pdf', 'ICES Paper 2005-01-2930 rev.doc', 'SAME ICES  2013 07 15 final as presented.pptx', 'SAME ICES 2012 07 15 2012.pptx', 'Same progress report to HQ 11-16-07   11 15 07  updated.ppt', 'SAME slides 7-1- 08 fixed schematic as presented .ppt']
+  researchArea: str len=18 'Combustion Science'
+  researchImpacts: str len=967 'Along with the results from the original SAME investigation, the results from SAME-R can lead to technology for an advanced fire detector fo'
+  restricted: bool=False
+  sourceAccession: str len=0 ''
+  sourceLink: str len=0 ''
+  spaceProgram: str len=52 'National Aeronautics and Space Administration (NASA)'
+  subResearchArea: str len=22 'Spacecraft Fire Safety'
+  submissionDate: str len=11 '18-Sep-2024'
+  title: str len=45 'Smoke Aerosol Measurement Experiment-Reflight'
+  totalFileSize: float=6308124750.0
+  version: int=4
+  versionMessage: str len=0 ''
+  versionMessageLevel: str len=0 ''
+  versionMessageLocations: list n=0
+  versionReason: str len=32 'Additional documentation release'
+FILE-LIKE FIELDS: {'added': 342, 'experimentalTable': 1, 'removed': 379}
+SPECIAL researchArea: 'Combustion Science'
+SPECIAL title: 'Smoke Aerosol Measurement Experiment-Reflight'
+SPECIAL publications: list 6
+SPECIAL version: int 4
+SPECIAL subResearchArea: 'Spacecraft Fire Safety'
+SPECIAL researchImpacts: 'Along with the results from the original SAME investigation, the results from SAME-R can lead to technology for an advanced fire detector for future spacecraft that will be used for long duration miss'
+================================================================================
+PSI-102_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-102.json
+ALL KEYS: accession, acknowledgments, added, approach, assays, contacts, description, dirty, doi, experimentHardware, experimentHardwareLink, experimentalTable, experiments, factors, filesDisabled, flightProgram, funding, hypothesis, identifiers, images, investigationAcronym, investigationEndDate, investigationStartDate, licenseIdentifier, licenseLink, licenseName, managingNasaCenter, missionEnd, missionLink, missionName, missionStart, modified, modifiedDate, objective, organizations, payloads, projectIdentifier, projectLink, projectTitle, projectType, proposalTitle, public, publications, related_glds, releaseDate, removed, researchArea, researchImpacts, restricted, sourceAccession, sourceLink, spaceProgram, subResearchArea, submissionDate, title, totalFileSize, version, versionMessage, versionMessageLevel, versionMessageLocations, versionReason
+  accession: str len=7 'PSI-102'
+  acknowledgments: str len=0 ''
+  added: list n=104
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'version', 'visible']
+    sample_files=['PSI-102_metadata_PSI-170_SAME.zip', 'PSI-102_Engineering Documents_SAME_EIRD.pdf', 'PSI-102_Reports_SAME_Final Science Report.pdf', 'PSI-102_Engineering Documents_Resistive Heater Coil-TN002.mp4', 'PSI-102_Engineering Documents_Resistive Heater Coil-TN001.mp4', 'PSI-102_Analyzed Data_GMT252run1testhkp with plots.xls', 'PSI-102_Analyzed Data_GMT252run1testhkp with plotszgy average.xls', 'PSI-102_Analyzed Data_Run 1 GMT252 testlog.xls']
+  approach: str len=1147 'The crew installed the near field hardware in the Glovebox, attached the Far Field Box to the Glovebox, and positioned the video cameras. Th'
+  assays: list n=0
+  contacts: list n=5
+    item_keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles']
+  description: str len=0 ''
+  dirty: bool=False
+  doi: str len=18 '10.60555/gd4k-8h62'
+  experimentHardware: str len=36 'Comparitive Soot Diagnostic Hardware'
+  experimentHardwareLink: str len=73 'https://ntrs.nasa.gov/api/citations/19960008413/downloads/19960008413.pdf'
+  experimentalTable: list n=1
+    item_keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-102_Experimental table_SAME.csv']
+  experiments: list n=0
+  factors: list n=0
+  filesDisabled: NoneType=None
+  flightProgram: str len=33 'International Space Station (ISS)'
+  funding: str len=9 'IH1013215'
+  hypothesis: str len=981 'The three hypotheses that motivated this investigation: In a μg environment, with the absence of the strong buoyancy-induced flows, smoke pa'
+  identifiers: list n=0
+  images: list n=0
+  investigationAcronym: str len=4 'SAME'
+  investigationEndDate: str len=10 '02-28-2008'
+  investigationStartDate: str len=10 '03-02-2001'
+  licenseIdentifier: str len=7 'CC0-1.0'
+  licenseLink: str len=38 'https://spdx.org/licenses/CC0-1.0.html'
+  licenseName: str len=36 'Creative Commons Zero v1.0 Universal'
+  managingNasaCenter: str len=27 'Glenn Research Center (GRC)'
+  missionEnd: str len=0 ''
+  missionLink: str len=0 ''
+  missionName: str len=0 ''
+  missionStart: str len=0 ''
+  modified: list n=0
+  modifiedDate: str len=11 '02-Jun-2025'
+  objective: str len=440 'One of the major goals of this investigation was to quantify the sizes that the liquid smoke particulate achieves in low gravity and to rela'
+  organizations: list n=0
+  payloads: list n=0
+  projectIdentifier: str len=0 ''
+  projectLink: str len=0 ''
+  projectTitle: str len=0 ''
+  projectType: str len=26 'Microgravity Investigation'
+  proposalTitle: str len=0 ''
+  public: bool=True
+  publications: list n=16
+    item_keys=['authorList', 'comments', 'doi', 'pubMedID', 'status', 'title']
+  related_glds: str len=7 'PSI-101'
+  releaseDate: str len=11 '18-Sep-2024'
+  removed: list n=52
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['GMT269silicon27.xls', 'GMT276silicone35.xls', 'TeflonGMT257hkp.xls', 'TeflonGMT257hkp zgy average.xls', 'GMT262 RUN 13 teflon.xls', 'GMT268teflon25.xls', 'GMT268teflon26.xls', 'GMT269teflon28hkp.xls']
+  researchArea: str len=18 'Combustion Science'
+  researchImpacts: str len=902 'The SAME experiment will provide technology for an advanced fire detector for future spacecraft that will be used for long duration missions'
+  restricted: bool=False
+  sourceAccession: str len=0 ''
+  sourceLink: str len=0 ''
+  spaceProgram: str len=52 'National Aeronautics and Space Administration (NASA)'
+  subResearchArea: str len=22 'Spacecraft Fire Safety'
+  submissionDate: str len=11 '18-Sep-2024'
+  title: str len=40 'Smoke and Aerosol Measurement Experiment'
+  totalFileSize: float=657608178.0
+  version: int=4
+  versionMessage: str len=0 ''
+  versionMessageLevel: str len=0 ''
+  versionMessageLocations: list n=0
+  versionReason: str len=32 'Additional documentation release'
+FILE-LIKE FIELDS: {'added': 104, 'experimentalTable': 1, 'removed': 52}
+SPECIAL researchArea: 'Combustion Science'
+SPECIAL title: 'Smoke and Aerosol Measurement Experiment'
+SPECIAL publications: list 16
+SPECIAL version: int 4
+SPECIAL subResearchArea: 'Spacecraft Fire Safety'
+SPECIAL researchImpacts: 'The SAME experiment will provide technology for an advanced fire detector for future spacecraft that will be used for long duration missions. SAME will provide quantitative data on the sensitivity of '
+================================================================================
+PSI-25_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-25.json
+ALL KEYS: accession, acknowledgments, added, approach, assays, contacts, description, dirty, doi, experimentHardware, experimentHardwareLink, experimentalTable, experiments, factors, filesDisabled, flightProgram, funding, hypothesis, identifiers, images, investigationAcronym, investigationEndDate, investigationStartDate, licenseIdentifier, licenseLink, licenseName, managingNasaCenter, missionEnd, missionLink, missionName, missionStart, modified, modifiedDate, objective, organizations, payloads, projectIdentifier, projectLink, projectTitle, projectType, proposalTitle, public, publications, related_glds, releaseDate, removed, researchArea, researchImpacts, restricted, sourceAccession, sourceLink, spaceProgram, subResearchArea, submissionDate, title, totalFileSize, version, versionMessage, versionMessageLevel, versionMessageLocations, versionReason
+  accession: str len=6 'PSI-25'
+  acknowledgments: str len=0 ''
+  added: list n=694
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'version', 'visible']
+    sample_files=['PSI-25_metadata_PSI_metadata_PSI-101_BASS-II.zip', 'PSI-25_Engineering Documents_BASS-II_Engineering Requirements.pptx', 'PSI-25_Raw Data_BASS_GMT50_SAMPLE_147_TEST_B1.mp4', 'PSI-25_Raw Data_BASS_GMT50_SAMPLE_147_TEST_B1_Still_Sequence.mp4', 'PSI-25_Raw Data_iss038e051108.zip', 'PSI-25_Raw Data_BASS_GMT50_SAMPLE_148_TEST_B3.mp4', 'PSI-25_Raw Data_BASS_GMT50_SAMPLE_148_TEST_B3_Still_Sequence.mp4', 'PSI-25_Raw Data_BASS_GMT50_SAMPLE_155_TEST_B2.mp4']
+  approach: str len=616 "To summarize, BASS-II's approach, microgravity combustion tests were performed aboard the International Space Station. Active crew support f"
+  assays: list n=0
+  contacts: list n=5
+    item_keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles']
+  description: str len=0 ''
+  dirty: bool=False
+  doi: str len=18 '10.60555/4qc4-de67'
+  experimentHardware: str len=35 'Microgravity Science Glovebox (MSG)'
+  experimentHardwareLink: str len=49 'https://www1.grc.nasa.gov/space/iss-research/msg/'
+  experimentalTable: list n=1
+    item_keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-25_Experimental table_BASS-II.csv']
+  experiments: list n=0
+  factors: list n=0
+  filesDisabled: NoneType=None
+  flightProgram: str len=33 'International Space Station (ISS)'
+  funding: str len=0 ''
+  hypothesis: str len=696 'BASS–II tests the hypothesis that materials in microgravity, with adequate ventilation, burn as well if not better than the same material in'
+  identifiers: list n=0
+  images: list n=1
+    item_keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-25_Representative Image(s)_BASS-II_flame testing.jpg']
+  investigationAcronym: str len=7 'BASS-II'
+  investigationEndDate: str len=10 '12-31-2022'
+  investigationStartDate: str len=10 '01-01-2010'
+  licenseIdentifier: str len=7 'CC0-1.0'
+  licenseLink: str len=38 'https://spdx.org/licenses/CC0-1.0.html'
+  licenseName: str len=36 'Creative Commons Zero v1.0 Universal'
+  managingNasaCenter: str len=27 'Glenn Research Center (GRC)'
+  missionEnd: str len=0 ''
+  missionLink: str len=0 ''
+  missionName: str len=0 ''
+  missionStart: str len=0 ''
+  modified: list n=0
+  modifiedDate: str len=11 '24-Nov-2025'
+  objective: str len=941 'BASS-II results contribute to the combustion computational models used in the design of fire detection and suppression systems in microgravi'
+  organizations: list n=0
+  payloads: list n=0
+  projectIdentifier: str len=0 ''
+  projectLink: str len=0 ''
+  projectTitle: str len=0 ''
+  projectType: str len=26 'Microgravity Investigation'
+  proposalTitle: str len=0 ''
+  public: bool=True
+  publications: list n=17
+    item_keys=['authorList', 'comments', 'doi', 'pubMedID', 'status', 'title']
+  related_glds: str len=6 'PSI-26'
+  releaseDate: str len=11 '31-Dec-2022'
+  removed: list n=131
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['BASS-II data FAQ.docx', 'BASS-II data FAQ.docx', 'BASS-II data FAQ.docx', 'BASS-II data FAQ.docx', 'BASS-II data FAQ.docx', 'BASS-II data FAQ.docx', 'BASS_GMT50_SAMPLE_147_TEST_B1 original videos.zip', 'BASS_GMT50_SAMPLE_148_TEST_B3 original videos.zip']
+  researchArea: str len=18 'Combustion Science'
+  researchImpacts: str len=691 'A primary goal of BASS-II is improved spacecraft fire safety, improved understanding of combustion in space and how to avoid it. If you’re o'
+  restricted: bool=False
+  sourceAccession: str len=0 ''
+  sourceLink: str len=0 ''
+  spaceProgram: str len=52 'National Aeronautics and Space Administration (NASA)'
+  subResearchArea: str len=22 'Spacecraft Fire Safety'
+  submissionDate: str len=11 '31-Dec-2022'
+  title: str len=38 'Burning and Suppression of Solids - II'
+  totalFileSize: float=274631106141.0
+  version: int=4
+  versionMessage: str len=0 ''
+  versionMessageLevel: str len=0 ''
+  versionMessageLocations: list n=0
+  versionReason: str len=15 'Metadata update'
+FILE-LIKE FIELDS: {'added': 694, 'experimentalTable': 1, 'images': 1, 'removed': 131}
+SPECIAL researchArea: 'Combustion Science'
+SPECIAL title: 'Burning and Suppression of Solids - II'
+SPECIAL publications: list 17
+SPECIAL version: int 4
+SPECIAL subResearchArea: 'Spacecraft Fire Safety'
+SPECIAL researchImpacts: 'A primary goal of BASS-II is improved spacecraft fire safety, improved understanding of combustion in space and how to avoid it. If you’re on a mission far from Earth, a fire can be catastrophic. BASS'
+================================================================================
+PSI-26_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-26.json
+ALL KEYS: accession, acknowledgments, added, approach, assays, contacts, description, dirty, doi, experimentHardware, experimentHardwareLink, experimentalTable, experiments, factors, filesDisabled, flightProgram, funding, hypothesis, identifiers, images, investigationAcronym, investigationEndDate, investigationStartDate, licenseIdentifier, licenseLink, licenseName, managingNasaCenter, missionEnd, missionLink, missionName, missionStart, modified, modifiedDate, objective, organizations, payloads, projectIdentifier, projectLink, projectTitle, projectType, proposalTitle, public, publications, related_glds, releaseDate, removed, researchArea, researchImpacts, restricted, sourceAccession, sourceLink, spaceProgram, subResearchArea, submissionDate, title, totalFileSize, version, versionMessage, versionMessageLevel, versionMessageLocations, versionReason
+  accession: str len=6 'PSI-26'
+  acknowledgments: str len=0 ''
+  added: list n=211
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'version', 'visible']
+    sample_files=['PSI-26_metadata_PSI-102_BASS.zip', 'PSI-26_Presentations_FlammabilityAspectsofCottonFiberglassFabric_ASGSR2012.pdf', 'PSI-26_Presentations_BASS_Overview of Recent ISS Results.pdf', 'PSI-26_Science Documents_FlammabilityAspectsofFabric_USNationalCombustion.2013.docx', 'PSI-26_Presentations_Flammability Aspects of Fabric_USNationalCombustion2013.pdf', 'PSI-26_Reports_SPICE_FinalReport.pdf', 'PSI-26_Reports_BASS_FinalReport.pdf', 'PSI-26_Engineering Documents_SLICE_SysReqDesignReview.pdf']
+  approach: str len=1138 'The experiment was conducted aboard the International Space Station (ISS) inside the Microgravity Glove Box (MSG). Custom-made fabric sample'
+  assays: list n=0
+  contacts: list n=4
+    item_keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles']
+  description: str len=0 ''
+  dirty: bool=False
+  doi: str len=18 '10.60555/58h4-dy80'
+  experimentHardware: str len=29 'Microgravity Science Glovebox'
+  experimentHardwareLink: str len=49 'https://www1.grc.nasa.gov/space/iss-research/msg/'
+  experimentalTable: list n=1
+    item_keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-26_Experimental table_BASS.csv']
+  experiments: list n=0
+  factors: list n=0
+  filesDisabled: NoneType=None
+  flightProgram: str len=33 'International Space Station (ISS)'
+  funding: str len=0 ''
+  hypothesis: str len=420 'BASS experiments were based on the hypothesis that materials in microgravity, with adequate ventilation, burn as well if not better than the'
+  identifiers: list n=0
+  images: list n=0
+  investigationAcronym: str len=4 'BASS'
+  investigationEndDate: str len=10 '06-30-2013'
+  investigationStartDate: str len=10 '10-01-2009'
+  licenseIdentifier: str len=7 'CC0-1.0'
+  licenseLink: str len=38 'https://spdx.org/licenses/CC0-1.0.html'
+  licenseName: str len=36 'Creative Commons Zero v1.0 Universal'
+  managingNasaCenter: str len=27 'Glenn Research Center (GRC)'
+  missionEnd: str len=0 ''
+  missionLink: str len=0 ''
+  missionName: str len=0 ''
+  missionStart: str len=0 ''
+  modified: list n=0
+  modifiedDate: str len=11 '19-Mar-2025'
+  objective: str len=760 'The two main objectives for BASS are to:     1.) Begin to bridge the gap between the normal gravity NASA-STD-6001 Test#1 method, ground-base'
+  organizations: list n=0
+  payloads: list n=0
+  projectIdentifier: str len=0 ''
+  projectLink: str len=0 ''
+  projectTitle: str len=0 ''
+  projectType: str len=26 'Microgravity Investigation'
+  proposalTitle: str len=0 ''
+  public: bool=True
+  publications: list n=10
+    item_keys=['authorList', 'comments', 'doi', 'pubMedID', 'status', 'title']
+  related_glds: str len=14 'PSI-107,PSI-25'
+  releaseDate: str len=11 '30-Jun-2013'
+  removed: list n=24
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['Impacts_Benefits1.rtf', '60054mdfh001.pdf', '60054mdfh002.pdf', 'PMMA sheet MFD1066.pdf', 'S1183MFA1020.pdf', 'S1183MFA1065.pdf', 's1183mfa1085-Spherical sample final.pdf', 's1183mfa1090-Cylindrical Samples.pdf']
+  researchArea: str len=18 'Combustion Science'
+  researchImpacts: str len=1223 'Current NASA spacecraft materials selection is based on a standard test method (NASA–STD–6001 Test 1) that segregates material based on 1-g '
+  restricted: bool=False
+  sourceAccession: str len=0 ''
+  sourceLink: str len=0 ''
+  spaceProgram: str len=52 'National Aeronautics and Space Administration (NASA)'
+  subResearchArea: str len=22 'Spacecraft Fire Safety'
+  submissionDate: str len=11 '30-Jun-2013'
+  title: str len=33 'Burning and Suppression of Solids'
+  totalFileSize: float=163551372412.0
+  version: int=4
+  versionMessage: str len=0 ''
+  versionMessageLevel: str len=0 ''
+  versionMessageLocations: list n=0
+  versionReason: str len=32 'Additional documentation release'
+FILE-LIKE FIELDS: {'added': 211, 'experimentalTable': 1, 'removed': 24}
+SPECIAL researchArea: 'Combustion Science'
+SPECIAL title: 'Burning and Suppression of Solids'
+SPECIAL publications: list 10
+SPECIAL version: int 4
+SPECIAL subResearchArea: 'Spacecraft Fire Safety'
+SPECIAL researchImpacts: 'Current NASA spacecraft materials selection is based on a standard test method (NASA–STD–6001 Test 1) that segregates material based on 1-g behavior without consideration of low gravity effects. A cri'
+================================================================================
+PSI-98_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-98.json
+ALL KEYS: accession, acknowledgments, added, approach, assays, contacts, description, dirty, doi, experimentHardware, experimentHardwareLink, experimentalTable, experiments, factors, filesDisabled, flightProgram, funding, hypothesis, identifiers, images, investigationAcronym, investigationEndDate, investigationStartDate, licenseIdentifier, licenseLink, licenseName, managingNasaCenter, missionEnd, missionLink, missionName, missionStart, modified, modifiedDate, objective, organizations, payloads, projectIdentifier, projectLink, projectTitle, projectType, proposalTitle, public, publications, related_glds, releaseDate, removed, researchArea, researchImpacts, restricted, sourceAccession, sourceLink, spaceProgram, subResearchArea, submissionDate, title, totalFileSize, version, versionMessage, versionMessageLevel, versionMessageLocations, versionReason
+  accession: str len=6 'PSI-98'
+  acknowledgments: str len=0 ''
+  added: list n=74
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-98_Engineering Documents_SAFFIRE Offgassing Testing Strategy.pdf', 'PSI-98_Raw Data_SAFFIRE-1_F1C1_DistortionGrids_1280x920_originals.zip', 'PSI-98_Raw Data_SAFFIRE-I_ImageFrameSizes_ROI_Offsets_Grid_1280x920_v1.0.pdf', 'PSI-98_Raw Data_Mapped_SAFFIRE-1_F1C1_DistortionGrid_1280x920.zip', 'PSI-98_Raw Data_SAFFIRE-1_F1C1_DistortionGrids_1360x1024_originals.zip', 'PSI-98_Raw Data_SAFFIRE_I_F1C1_jpegs.zip', 'PSI-98_Raw Data_SAFFIRE_I_F1C1_JPEG_Mapped.zip', 'PSI-98_Raw Data_F1C1-Raw_DistroMaster_originals.zip']
+  approach: str len=1176 'The Saffire-1 experiments was performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. The sample materia'
+  assays: list n=0
+  contacts: list n=1
+    item_keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles']
+  description: str len=0 ''
+  dirty: bool=False
+  doi: str len=18 '10.60555/0t15-1z43'
+  experimentHardware: str len=29 'Saffire 1 enclosure in Cygnus'
+  experimentHardwareLink: str len=57 'https://www1.grc.nasa.gov/space/iss-research/msg/saffire/'
+  experimentalTable: list n=1
+    item_keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-98_Experimental table_SAFFIRE-1.csv']
+  experiments: list n=0
+  factors: list n=0
+  filesDisabled: NoneType=None
+  flightProgram: str len=33 'International Space Station (ISS)'
+  funding: str len=4 'NASA'
+  hypothesis: str len=792 'This investigation hypothesizes that due to large differences between fire behavior in normal and reduced gravity, the use of terrestrial fi'
+  identifiers: list n=0
+  images: list n=0
+  investigationAcronym: str len=9 'SAFFIRE-I'
+  investigationEndDate: str len=10 '02-28-2008'
+  investigationStartDate: str len=10 '03-02-2001'
+  licenseIdentifier: str len=7 'CC0-1.0'
+  licenseLink: str len=38 'https://spdx.org/licenses/CC0-1.0.html'
+  licenseName: str len=36 'Creative Commons Zero v1.0 Universal'
+  managingNasaCenter: str len=27 'Glenn Research Center (GRC)'
+  missionEnd: str len=0 ''
+  missionLink: str len=0 ''
+  missionName: str len=0 ''
+  missionStart: str len=0 ''
+  modified: list n=1
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'version', 'visible']
+    sample_files=['PSI-98_metadata_PSI-166_SAFFIRE-I.zip']
+  modifiedDate: str len=11 '03-Jun-2025'
+  objective: str len=251 'The objectives of this investigation were to: (1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-'
+  organizations: list n=0
+  payloads: list n=0
+  projectIdentifier: str len=0 ''
+  projectLink: str len=0 ''
+  projectTitle: str len=0 ''
+  projectType: str len=26 'Microgravity Investigation'
+  proposalTitle: str len=88 'Characterization of Smoke from Microgravity Fires for Improved Spacecraft Fire Detection'
+  public: bool=True
+  publications: list n=6
+    item_keys=['authorList', 'comments', 'doi', 'pubMedID', 'status', 'title']
+  related_glds: str len=21 'PSI-99,PSI-100,PSI-26'
+  releaseDate: str len=11 '18-Sep-2024'
+  removed: list n=85
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'psi_legacy', 'psi_legacy_s3_path', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['SAFFIRE Obj, Dev, and Status.pdf', 'SAFFIRE Offgassing Testing Strategy.pdf', 'SAFFIRE_45 I Con of Env Sys presentation.pdf', 'SAFFIRE_45 I Conv of Env Sys paper.pdf', 'SAFFIRE_46th I Con of Env Sys paper.pdf', 'SAFFIRE_46th I Con of Env Sys presentation.pdf', 'SAFFIRE_47th I Con of Env Sys presentation.pdf', 'SAFFIRE-1_F1C1_DistortionGrids_1280x920_originals.zip']
+  researchArea: str len=18 'Combustion Science'
+  researchImpacts: str len=790 'The Saffire-I experiment provides a new way to study a realistic fire on an exploration vehicle, which has not been possible in the past bec'
+  restricted: bool=False
+  sourceAccession: str len=0 ''
+  sourceLink: str len=0 ''
+  spaceProgram: str len=52 'National Aeronautics and Space Administration (NASA)'
+  subResearchArea: str len=35 'Spacecraft Fire, Smoke Distribution'
+  submissionDate: str len=11 '18-Sep-2024'
+  title: str len=35 'Spacecraft Fire Safety Experiment-I'
+  totalFileSize: float=12250600201.0
+  version: int=4
+  versionMessage: str len=0 ''
+  versionMessageLevel: str len=0 ''
+  versionMessageLocations: list n=0
+  versionReason: str len=15 'Metadata update'
+FILE-LIKE FIELDS: {'added': 74, 'experimentalTable': 1, 'modified': 1, 'removed': 85}
+SPECIAL researchArea: 'Combustion Science'
+SPECIAL title: 'Spacecraft Fire Safety Experiment-I'
+SPECIAL publications: list 6
+SPECIAL version: int 4
+SPECIAL subResearchArea: 'Spacecraft Fire, Smoke Distribution'
+SPECIAL researchImpacts: 'The Saffire-I experiment provides a new way to study a realistic fire on an exploration vehicle, which has not been possible in the past because the risks are too high. Instruments on an unmanned carg'
+================================================================================
+PSI-99_psi.nasa.gov_geode-py_ws_repo_investigations_PSI-99.json
+ALL KEYS: accession, acknowledgments, added, approach, assays, contacts, description, dirty, doi, experimentHardware, experimentHardwareLink, experimentalTable, experiments, factors, filesDisabled, flightProgram, funding, hypothesis, identifiers, images, investigationAcronym, investigationEndDate, investigationStartDate, licenseIdentifier, licenseLink, licenseName, managingNasaCenter, missionEnd, missionLink, missionName, missionStart, modified, modifiedDate, objective, organizations, payloads, projectIdentifier, projectLink, projectTitle, projectType, proposalTitle, public, publications, related_glds, releaseDate, removed, researchArea, researchImpacts, restricted, sourceAccession, sourceLink, spaceProgram, subResearchArea, submissionDate, title, totalFileSize, version, versionMessage, versionMessageLevel, versionMessageLocations, versionReason
+  accession: str len=6 'PSI-99'
+  acknowledgments: str len=0 ''
+  added: list n=0
+  approach: str len=1245 'The Saffire-II experiment was performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on to '
+  assays: list n=0
+  contacts: list n=2
+    item_keys=['@id', 'address', 'affiliation', 'comments', 'email', 'fax', 'firstName', 'lastName', 'midInitials', 'phone', 'roles']
+  description: str len=0 ''
+  dirty: bool=False
+  doi: str len=18 '10.60555/2chp-m469'
+  experimentHardware: str len=40 'Cygnus Pressurized Cargo Module, SAFFIRE'
+  experimentHardwareLink: str len=157 'https://cdn.northropgrumman.com/-/media/wp-content/uploads/Cygnus-Fact-Sheet-1.pdf, https://ntrs.nasa.gov/api/citations/20170000230/download'
+  experimentalTable: list n=1
+    item_keys=['_id', 'date_created', 'date_modified', 'file_name', 'file_size', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'subcategory', 'version', 'visible']
+    sample_files=['PSI-99_Experimental table_SAFFIRE-2.csv']
+  experiments: list n=0
+  factors: list n=0
+  filesDisabled: NoneType=None
+  flightProgram: str len=17 'Cygnus Spacecraft'
+  funding: str len=4 'NASA'
+  hypothesis: str len=792 'This investigation hypothesizes that due to large differences between fire behavior in normal and reduced gravity, the use of terrestrial fi'
+  identifiers: list n=0
+  images: list n=0
+  investigationAcronym: str len=10 'SAFFIRE-II'
+  investigationEndDate: str len=10 '04-01-2017'
+  investigationStartDate: str len=10 '09-30-2016'
+  licenseIdentifier: str len=7 'CC0-1.0'
+  licenseLink: str len=38 'https://spdx.org/licenses/CC0-1.0.html'
+  licenseName: str len=36 'Creative Commons Zero v1.0 Universal'
+  managingNasaCenter: str len=27 'Glenn Research Center (GRC)'
+  missionEnd: str len=0 ''
+  missionLink: str len=0 ''
+  missionName: str len=0 ''
+  missionStart: str len=0 ''
+  modified: list n=1
+    item_keys=['bucket', 'date_created', 'date_modified', 'file_name', 'file_size', 'organization', 'remote_path', 'remote_url', 'resource_id', 'restricted', 's3_path', 's3_version_id', 'study_id', 'version', 'visible']
+    sample_files=['PSI-99_metadata_PSI-167_SAFFIRE-II.zip']
+  modifiedDate: str len=11 '04-Jun-2025'
+  objective: str len=236 'The objectives of SAFFIRE-II are to determine how rapidly a large scale fire grows in low-gravity and to investigate the low-g flammability '
+  organizations: list n=0
+  payloads: list n=0
+  projectIdentifier: str len=0 ''
+  projectLink: str len=0 ''
+  projectTitle: str len=0 ''
+  projectType: str len=26 'Microgravity Investigation'
+  proposalTitle: str len=0 ''
+  public: bool=True
+  publications: list n=7
+    item_keys=['authorList', 'comments', 'doi', 'pubMedID', 'status', 'title']
+  related_glds: str len=0 ''
+  releaseDate: str len=11 '18-Sep-2024'
+  removed: list n=0
+  researchArea: str len=18 'Combustion Science'
+  researchImpacts: str len=791 'The Saffire-II experiment provides a new way to study a realistic fire on an exploration vehicle, which has not been possible in the past be'
+  restricted: bool=False
+  sourceAccession: str len=0 ''
+  sourceLink: str len=0 ''
+  spaceProgram: str len=52 'National Aeronautics and Space Administration (NASA)'
+  subResearchArea: str len=18 'Surface Combustion'
+  submissionDate: str len=11 '18-Sep-2024'
+  title: str len=29 'Spacecraft Fire Experiment-II'
+  totalFileSize: float=16931016137.0
+  version: int=5
+  versionMessage: str len=0 ''
+  versionMessageLevel: str len=0 ''
+  versionMessageLocations: list n=0
+  versionReason: str len=15 'Metadata update'
+FILE-LIKE FIELDS: {'experimentalTable': 1, 'modified': 1}
+SPECIAL researchArea: 'Combustion Science'
+SPECIAL title: 'Spacecraft Fire Experiment-II'
+SPECIAL publications: list 7
+SPECIAL version: int 5
+SPECIAL subResearchArea: 'Surface Combustion'
+SPECIAL researchImpacts: 'The Saffire-II experiment provides a new way to study a realistic fire on an exploration vehicle, which has not been possible in the past because the risks are too high. Instruments on an unmanned car'
