@@ -1,0 +1,39 @@
+# Render blueprint for the FlameLens FastAPI backend.
+#
+# Deploy from the repository root: New > Blueprint > select this repo.
+# The root Dockerfile copies backend/app plus the four NASA PSI metadata
+# inventories into the image, so no external storage is required.
+
+services:
+  - type: web
+    name: flamelens-api
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/v1/health
+    autoDeploy: true
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: "false"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: FLAMELENS_METADATA_DIR
+        value: /app/data/metadata
+      # Set this in the Render dashboard to the deployed frontend origin,
+      # e.g. https://your-frontend.vercel.app (comma-separated for several).
+      - key: CORS_ORIGINS
+        sync: false
+      # Optional AI providers. Leave unset to use the deterministic fallback.
+      # Keys stay server-side and are never sent to the browser.
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.0-flash
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile

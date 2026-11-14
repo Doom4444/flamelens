@@ -1,0 +1,51 @@
+# Keep the build context small; the image copies only what it needs.
+.git
+.gitignore
+.github
+.pytest_cache
+.venv
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/*.tsbuildinfo
+
+# Local secrets and machine-specific config
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Frontend and tooling are not part of the backend image
+frontend
+node_modules
+**/node_modules
+docs
+scripts
+pytest.ini
+backend/.venv
+backend/tests
+backend/migrations
+backend/requirements.txt
+backend/Dockerfile
+README.md
+DEPLOYMENT.md
+LICENSE
+docker-compose.yml
+render.yaml
+
+# Research knowledge base must never be baked into the deployment image
+data/knowledge
+
+# Scratch artifacts from the offline PSI audit
+data/metadata/_tmp_*
+data/metadata/*.txt
+data/raw
+data/processed
+data/samples
+
+# Container/build leftovers
+*.log
+.DS_Store
+Thumbs.db

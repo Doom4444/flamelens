@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { StatusIndicator } from '../common/StatusIndicator';
 import { ConnectionStatus } from '../../types';
+import { API_BASE_URL } from '../../services/api';
 
 interface SidebarProps {
   isOpen: boolean;
@@ -142,7 +143,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           </div>
 
           <a
-            href="http://localhost:8000/docs"
+            href={API_BASE_URL ? `${API_BASE_URL}/docs` : undefined}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between text-xs font-mono text-[#94A3B8] hover:text-[#35C6E8] transition-colors pt-2 border-t border-[#243449]/40"

@@ -1,0 +1,13 @@
+# Minimal runtime dependencies for the deployed FlameLens API.
+#
+# The full backend/requirements.txt also contains tooling for the offline data
+# pipeline (Playwright, pandas, SQLAlchemy, ...). Those packages are not
+# imported by the FastAPI application, so they are intentionally omitted here
+# to keep the production image small and the build fast.
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.1
+httpx>=0.27.0

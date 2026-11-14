@@ -41,6 +41,11 @@ class Settings(BaseSettings):
     # Logging
     LOG_LEVEL: str = "INFO"
 
+    @property
+    def is_production(self) -> bool:
+        """True when the app is running in a production environment."""
+        return self.ENVIRONMENT.strip().lower() == "production"
+
     @field_validator("CORS_ORIGINS", mode="before")
     @classmethod
     def assemble_cors_origins(cls, v: Union[str, List[str]]) -> List[str]:

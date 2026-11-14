@@ -11,10 +11,32 @@ import {
   BackendHealthResponse,
 } from '../types';
 
-export const API_BASE_URL: string =
-  (import.meta.env.VITE_API_BASE_URL as string) || 'http://127.0.0.1:8000';
+/**
+ * Backend origin.
+ *
+ * Production/staging builds must provide VITE_API_BASE_URL at build time. The
+ * localhost fallback is only used by the Vite dev server so a missing variable
+ * can never silently point a deployed site at the visitor's own machine.
+ */
+const configuredApiBase = (import.meta.env.VITE_API_BASE_URL as string | undefined)?.trim();
+
+export const API_BASE_URL: string = (
+  configuredApiBase || (import.meta.env.DEV ? 'http://127.0.0.1:8000' : '')
+).replace(/\/+$/, '');
+
+export const isApiConfigured: boolean = API_BASE_URL.length > 0;
 
 const API_PREFIX = '/api/v1';
+
+const MISSING_API_BASE_MESSAGE =
+  'Backend API URL is not configured. Set VITE_API_BASE_URL to the deployed backend origin (for example https://your-api.onrender.com) and rebuild the frontend.';
+
+function apiUrl(path: string, query?: Record<string, QueryValue>): string {
+  if (!isApiConfigured) {
+    throw new ApiError(MISSING_API_BASE_MESSAGE);
+  }
+  return `${API_BASE_URL}${API_PREFIX}${path}${buildQuery(query)}`;
+}
 
 export class ApiError extends Error {
   status?: number;
@@ -43,14 +65,15 @@ export function buildQuery(params?: Record<string, QueryValue>): string {
 }
 
 async function request<T>(path: string, params?: Record<string, QueryValue>): Promise<T> {
+  const url = apiUrl(path, params);
   let response: Response;
   try {
-    response = await fetch(`${API_BASE_URL}${API_PREFIX}${path}${buildQuery(params)}`, {
+    response = await fetch(url, {
       headers: { Accept: 'application/json' },
     });
-  } catch (err) {
+  } catch {
     throw new ApiError(
-      `Cannot reach the FlameLens backend at ${API_BASE_URL}. Is FastAPI running?`
+      `Cannot reach the FlameLens backend at ${API_BASE_URL}. Check that the API is running and that CORS_ORIGINS allows this site.`
     );
   }
 
@@ -71,16 +94,17 @@ async function request<T>(path: string, params?: Record<string, QueryValue>): Pr
 }
 
 async function post<T>(path: string, body: unknown): Promise<T> {
+  const url = apiUrl(path);
   let response: Response;
   try {
-    response = await fetch(`${API_BASE_URL}${API_PREFIX}${path}`, {
+    response = await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       body: JSON.stringify(body),
     });
   } catch {
     throw new ApiError(
-      `Cannot reach the FlameLens backend at ${API_BASE_URL}. Is FastAPI running?`
+      `Cannot reach the FlameLens backend at ${API_BASE_URL}. Check that the API is running and that CORS_ORIGINS allows this site.`
     );
   }
 
@@ -104,6 +128,7 @@ export function exportUrl(
   params?: Record<string, QueryValue>,
   investigationId?: string
 ): string {
+  if (!isApiConfigured) return '#';
   const path = investigationId
     ? `/investigations/${encodeURIComponent(investigationId)}/files/export`
     : '/files/export';
@@ -193,7 +218,7 @@ export async function checkBackendHealth(
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
-    const response = await fetch(`${API_BASE_URL}${API_PREFIX}/health`, {
+    const response = await fetch(apiUrl('/health'), {
       method: 'GET',
       headers: { Accept: 'application/json' },
       signal: controller.signal,
