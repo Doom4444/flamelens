@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlameLens Pipeline Report</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:28px;font-family:Arial,sans-serif;background:#f4f6f9;color:#263238}
+main{max-width:1400px;margin:auto}
+header{background:#172554;color:white;padding:28px;border-radius:12px;margin-bottom:22px}
+.meta{line-height:1.9;font-size:14px}
+section{background:white;padding:22px;border-radius:12px;margin-bottom:22px;box-shadow:0 2px 8px #0000000d}
+h2{margin-top:0;color:#172554}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:14px}
+.card{background:#f8fafc;padding:18px;border-radius:9px;border-left:4px solid #2563eb}
+.label{font-size:13px;color:#64748b;margin-bottom:10px}
+.value{font-size:24px;font-weight:bold;color:#172554}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:760px}
+th,td{padding:12px;border-bottom:1px solid #e2e8f0;text-align:left;vertical-align:top;font-size:13px}
+th{background:#f1f5f9}
+.badge{display:inline-block;padding:5px 9px;border-radius:20px;font-size:11px;font-weight:bold}
+.completed{background:#dcfce7;color:#166534}
+.completed_with_errors,.partial{background:#fef3c7;color:#92400e}
+.failed{background:#fee2e2;color:#991b1b}
+.running,.started{background:#dbeafe;color:#1e40af}
+.dry_run_completed{background:#ede9fe;color:#5b21b6}
+.unknown{background:#e2e8f0;color:#334155}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}
+.error{background:#fff1f2;border-left:4px solid #dc2626;padding:12px;margin:10px 0}
+footer{text-align:center;color:#64748b;font-size:12px;padding:18px}
+@media print{body{background:white;padding:8px}section{box-shadow:none;border:1px solid #ddd}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>FlameLens Pipeline Report</h1>
+<div class="meta">
+<div><b>Run ID:</b> 20261114_020921_181495</div>
+<div><b>Mode:</b> initial</div>
+<div><b>Status:</b> <span class="badge completed_with_errors">Completed With Errors</span></div>
+<div><b>Dry Run:</b> False</div>
+<div><b>Started:</b> 2026-11-14T02:09:21.181545+00:00</div>
+<div><b>Finished:</b> 2026-11-14T02:13:53.271127+00:00</div>
+<div><b>Generated:</b> 2026-11-14T02:13:53.280489+00:00</div>
+</div>
+</header>
+
+<section>
+<h2>Run Overview</h2>
+<div class="cards"><div class="card"><div class="label">Investigations Discovered</div><div class="value">1</div></div>
+<div class="card"><div class="label">Investigations Scanned</div><div class="value">1</div></div>
+<div class="card"><div class="label">Investigations Completed</div><div class="value">1</div></div>
+<div class="card"><div class="label">Investigations Partial</div><div class="value">0</div></div>
+<div class="card"><div class="label">Investigations Failed</div><div class="value">0</div></div>
+<div class="card"><div class="label">Files Found</div><div class="value">16</div></div>
+<div class="card"><div class="label">Files Downloaded</div><div class="value">3</div></div>
+<div class="card"><div class="label">Unchanged Files</div><div class="value">0</div></div>
+<div class="card"><div class="label">Downloaded MB</div><div class="value">11.28</div></div>
+<div class="card"><div class="label">Pending Approval</div><div class="value">0</div></div>
+<div class="card"><div class="label">Errors</div><div class="value">13</div></div></div>
+</section>
+
+<section>
+<h2>Investigation Results</h2>
+<div class='scroll'><table><thead><tr><th>Investigation ID</th><th>Name</th><th>Status</th><th>Files Found</th><th>Downloaded</th><th>Unchanged</th><th>Downloaded MB</th><th>Budget Details</th></tr></thead><tbody><tr><td>PSI-117</td><td>Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics: A Multidimensional Multi-Physics CFD Analysis</td><td><span class="badge completed_with_errors">Completed With Errors</span></td><td>16</td><td>3</td><td>0</td><td>11.28</td><td><details><summary>Budget</summary><pre>{
+  &quot;limit_mb&quot;: 500,
+  &quot;raw_auto_overrun_mb&quot;: 5,
+  &quot;starting_usage_mb&quot;: 19.853,
+  &quot;actual_usage_mb&quot;: 31.134,
+  &quot;remaining_mb&quot;: 468.866,
+  &quot;over_limit_mb&quot;: 0.0,
+  &quot;within_standard_budget&quot;: true,
+  &quot;within_absolute_budget&quot;: true,
+  &quot;raw_selection&quot;: {
+    &quot;selected_files&quot;: 0,
+    &quot;skipped_files&quot;: 0,
+    &quot;selected_advertised_size_mb&quot;: 0,
+    &quot;used_overrun&quot;: false,
+    &quot;overrun_file&quot;: null,
+    &quot;overrun_file_key&quot;: null
+  }
+}</pre></details></td></tr></tbody></table></div>
+</section>
+
+<section>
+<h2>Pending Approval</h2>
+<p>No files pending approval.</p>
+</section>
+
+<section>
+<h2>Errors and Warnings</h2>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Presentations_PSI_Users_Group_Cool_Flames_in_Space_03302026.pdf&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Missing PDF signature in first 1024 bytes&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Presentations_Extinction_Characteristics_TFarouk.pdf&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Missing PDF signature in first 1024 bytes&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Presentations_Three_Stage_Cool_Flame_TFarouk.pdf&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Missing PDF signature in first 1024 bytes&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Analyzed Data_ReadMe_List_of_Data.xlsx&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Invalid ZIP archive&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Analyzed Data_PROCI_2023_Alkane_Extinction_Diameter_1atm.csv&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Text decoding failed: Could not decode text using supported encodings. Last error: &#x27;charmap&#x27; codec can&#x27;t decode byte 0x8d in position 420: character maps to &lt;undefined&gt;&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Analyzed Data_PROCI_2019_Oscillatory_Cool_Flame.csv&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Text decoding failed: Could not decode text using supported encodings. Last error: &#x27;utf-32-be&#x27; codec can&#x27;t decode bytes in position 0-3: code point not in range(0x110000)&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure.csv&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Text decoding failed: Could not decode text using supported encodings. Last error: &#x27;charmap&#x27; codec can&#x27;t decode byte 0x90 in position 416: character maps to &lt;undefined&gt;&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Analyzed Data_PROCI_2019_Stable_Cool.csv&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Text decoding failed: Could not decode text using supported encodings. Last error: &#x27;utf-32-be&#x27; codec can&#x27;t decode bytes in position 0-3: code point not in range(0x110000)&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Analyzed Data_PROCI_C12_2019_Three_Stage.csv&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Text decoding failed: Could not decode text using supported encodings. Last error: &#x27;charmap&#x27; codec can&#x27;t decode byte 0x90 in position 416: character maps to &lt;undefined&gt;&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Analyzed Data_MST_2024_Kavg.csv&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Text decoding failed: Could not decode text using supported encodings. Last error: &#x27;charmap&#x27; codec can&#x27;t decode byte 0x8d in position 420: character maps to &lt;undefined&gt;&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Analyzed Data_MST_2024_Dext.csv&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Text decoding failed: Could not decode text using supported encodings. Last error: &#x27;utf-32-be&#x27; codec can&#x27;t decode bytes in position 0-3: code point not in range(0x110000)&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Analyzed Data_MST_2024_Radiance_Flame_Diameter.csv&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Text decoding failed: Could not decode text using supported encodings. Last error: &#x27;charmap&#x27; codec can&#x27;t decode byte 0x90 in position 416: character maps to &lt;undefined&gt;&quot;
+}</pre></div>
+<div class='error'><pre>{
+  &quot;investigation_id&quot;: &quot;PSI-117&quot;,
+  &quot;stage&quot;: &quot;download&quot;,
+  &quot;file&quot;: &quot;PSI-117_Reports_Dissertation_Combustion Behavior Of Sub-Millimeter Sized Oxygenated And N-Alka.pdf&quot;,
+  &quot;error&quot;: &quot;Downloaded content failed validation: Missing PDF signature in first 1024 bytes&quot;
+}</pre></div>
+</section>
+
+<footer>FlameLens | NASA PSI Combustion Data Pipeline</footer>
+</main>
+</body>
+</html>

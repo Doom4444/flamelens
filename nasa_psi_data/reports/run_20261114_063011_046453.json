@@ -1,0 +1,55 @@
+{
+    "report_generated_at": "2026-11-14T06:30:58.209788+00:00",
+    "run_id": "20261114_063011_046453",
+    "mode": "initial",
+    "dry_run": false,
+    "status": "running",
+    "started_at": "2026-11-14T06:30:11.046586+00:00",
+    "finished_at": "2026-11-14T06:30:58.209064+00:00",
+    "investigations_discovered": 26,
+    "investigations_scanned": 1,
+    "investigations_completed": 1,
+    "investigations_partial": 0,
+    "investigations_failed": 0,
+    "files_found": 16,
+    "files_downloaded": 0,
+    "unchanged_files": 16,
+    "downloaded_mb": 0.0,
+    "pending_approval": [],
+    "errors": [],
+    "investigations": [
+        {
+            "investigation_id": "PSI-117",
+            "name": "Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics: A Multidimensional Multi-Physics CFD Analysis",
+            "status": "completed",
+            "files_found": 16,
+            "downloaded_files": 0,
+            "unchanged_files": 16,
+            "downloaded_mb": 0.0,
+            "pending_approval": [],
+            "errors": [],
+            "budget": {
+                "limit_mb": 500,
+                "raw_auto_overrun_mb": 5,
+                "starting_usage_mb": 72.414,
+                "actual_usage_mb": 72.414,
+                "remaining_mb": 427.586,
+                "over_limit_mb": 0.0,
+                "within_standard_budget": true,
+                "within_absolute_budget": true,
+                "raw_selection": {
+                    "selected_files": 0,
+                    "skipped_files": 0,
+                    "selected_advertised_size_mb": 0,
+                    "used_overrun": false,
+                    "overrun_file": null,
+                    "overrun_file_key": null
+                }
+            },
+            "started_at": "2026-11-14T06:30:13.871541+00:00",
+            "finished_at": "2026-11-14T06:30:24.199202+00:00",
+            "scrape_status": "completed",
+            "download_status": "completed"
+        }
+    ]
+}

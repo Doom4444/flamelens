@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlameLens Pipeline Report</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:28px;font-family:Arial,sans-serif;background:#f4f6f9;color:#263238}
+main{max-width:1400px;margin:auto}
+header{background:#172554;color:white;padding:28px;border-radius:12px;margin-bottom:22px}
+.meta{line-height:1.9;font-size:14px}
+section{background:white;padding:22px;border-radius:12px;margin-bottom:22px;box-shadow:0 2px 8px #0000000d}
+h2{margin-top:0;color:#172554}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:14px}
+.card{background:#f8fafc;padding:18px;border-radius:9px;border-left:4px solid #2563eb}
+.label{font-size:13px;color:#64748b;margin-bottom:10px}
+.value{font-size:24px;font-weight:bold;color:#172554}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:760px}
+th,td{padding:12px;border-bottom:1px solid #e2e8f0;text-align:left;vertical-align:top;font-size:13px}
+th{background:#f1f5f9}
+.badge{display:inline-block;padding:5px 9px;border-radius:20px;font-size:11px;font-weight:bold}
+.completed{background:#dcfce7;color:#166534}
+.completed_with_errors,.partial{background:#fef3c7;color:#92400e}
+.failed{background:#fee2e2;color:#991b1b}
+.running,.started{background:#dbeafe;color:#1e40af}
+.dry_run_completed{background:#ede9fe;color:#5b21b6}
+.unknown{background:#e2e8f0;color:#334155}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}
+.error{background:#fff1f2;border-left:4px solid #dc2626;padding:12px;margin:10px 0}
+footer{text-align:center;color:#64748b;font-size:12px;padding:18px}
+@media print{body{background:white;padding:8px}section{box-shadow:none;border:1px solid #ddd}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>FlameLens Pipeline Report</h1>
+<div class="meta">
+<div><b>Run ID:</b> 20261114_074624_724534</div>
+<div><b>Mode:</b> initial</div>
+<div><b>Status:</b> <span class="badge unknown">Unknown</span></div>
+<div><b>Dry Run:</b> False</div>
+<div><b>Started:</b> 2026-11-14T07:46:24.724565+00:00</div>
+<div><b>Finished:</b> 2026-11-14T07:49:40.679523+00:00</div>
+<div><b>Generated:</b> 2026-11-14T07:49:40.680774+00:00</div>
+</div>
+</header>
+
+<section>
+<h2>Run Overview</h2>
+<div class="cards"><div class="card"><div class="label">Investigations Discovered</div><div class="value">1</div></div>
+<div class="card"><div class="label">Investigations Scanned</div><div class="value">0</div></div>
+<div class="card"><div class="label">Investigations Completed</div><div class="value">0</div></div>
+<div class="card"><div class="label">Investigations Partial</div><div class="value">0</div></div>
+<div class="card"><div class="label">Investigations Failed</div><div class="value">0</div></div>
+<div class="card"><div class="label">Files Found</div><div class="value">0</div></div>
+<div class="card"><div class="label">Files Downloaded</div><div class="value">0</div></div>
+<div class="card"><div class="label">Unchanged Files</div><div class="value">0</div></div>
+<div class="card"><div class="label">Downloaded MB</div><div class="value">0.00</div></div>
+<div class="card"><div class="label">Pending Approval</div><div class="value">0</div></div>
+<div class="card"><div class="label">Errors</div><div class="value">1</div></div></div>
+</section>
+
+<section>
+<h2>Investigation Results</h2>
+<p>No investigation results available.</p>
+</section>
+
+<section>
+<h2>Pending Approval</h2>
+<p>No files pending approval.</p>
+</section>
+
+<section>
+<h2>Errors and Warnings</h2>
+<div class='error'><pre>{
+  &quot;stage&quot;: &quot;pipeline&quot;,
+  &quot;error&quot;: &quot;Pipeline was cancelled by the user.&quot;
+}</pre></div>
+</section>
+
+<footer>FlameLens | NASA PSI Combustion Data Pipeline</footer>
+</main>
+</body>
+</html>

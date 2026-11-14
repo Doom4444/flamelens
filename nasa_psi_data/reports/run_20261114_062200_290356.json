@@ -1,0 +1,69 @@
+{
+    "report_generated_at": "2026-11-14T06:22:26.816424+00:00",
+    "run_id": "20261114_062200_290356",
+    "mode": "initial",
+    "dry_run": false,
+    "status": "completed_with_errors",
+    "started_at": "2026-11-14T06:22:00.290741+00:00",
+    "finished_at": "2026-11-14T06:22:26.815785+00:00",
+    "investigations_discovered": 1,
+    "investigations_scanned": 1,
+    "investigations_completed": 1,
+    "investigations_partial": 0,
+    "investigations_failed": 0,
+    "files_found": 16,
+    "files_downloaded": 0,
+    "unchanged_files": 15,
+    "downloaded_mb": 0.0,
+    "pending_approval": [],
+    "errors": [
+        {
+            "investigation_id": "PSI-117",
+            "stage": "download",
+            "file": "PSI-117_Analyzed Data_ReadMe_List_of_Data.xlsx",
+            "error": "Downloaded content failed validation: Excel parsing failed: openpyxl does not support .part file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm"
+        }
+    ],
+    "investigations": [
+        {
+            "investigation_id": "PSI-117",
+            "name": "Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics: A Multidimensional Multi-Physics CFD Analysis",
+            "status": "completed_with_errors",
+            "files_found": 16,
+            "downloaded_files": 0,
+            "unchanged_files": 15,
+            "downloaded_mb": 0.0,
+            "pending_approval": [],
+            "errors": [
+                {
+                    "investigation_id": "PSI-117",
+                    "stage": "download",
+                    "file": "PSI-117_Analyzed Data_ReadMe_List_of_Data.xlsx",
+                    "error": "Downloaded content failed validation: Excel parsing failed: openpyxl does not support .part file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm"
+                }
+            ],
+            "budget": {
+                "limit_mb": 500,
+                "raw_auto_overrun_mb": 5,
+                "starting_usage_mb": 72.403,
+                "actual_usage_mb": 72.403,
+                "remaining_mb": 427.597,
+                "over_limit_mb": 0.0,
+                "within_standard_budget": true,
+                "within_absolute_budget": true,
+                "raw_selection": {
+                    "selected_files": 0,
+                    "skipped_files": 0,
+                    "selected_advertised_size_mb": 0,
+                    "used_overrun": false,
+                    "overrun_file": null,
+                    "overrun_file_key": null
+                }
+            },
+            "started_at": "2026-11-14T06:22:03.779296+00:00",
+            "finished_at": "2026-11-14T06:22:26.621985+00:00",
+            "scrape_status": "completed",
+            "download_status": "completed_with_errors"
+        }
+    ]
+}

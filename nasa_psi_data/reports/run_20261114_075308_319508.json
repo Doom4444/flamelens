@@ -1,0 +1,26 @@
+{
+    "report_generated_at": "2026-11-14T08:07:26.951485+00:00",
+    "run_id": "20261114_075308_319508",
+    "mode": "initial",
+    "dry_run": false,
+    "status": "cancelled",
+    "started_at": "2026-11-14T07:53:08.319540+00:00",
+    "finished_at": "2026-11-14T08:07:26.951146+00:00",
+    "investigations_discovered": 1,
+    "investigations_scanned": 0,
+    "investigations_completed": 0,
+    "investigations_partial": 0,
+    "investigations_failed": 0,
+    "files_found": 0,
+    "files_downloaded": 0,
+    "unchanged_files": 0,
+    "downloaded_mb": 0.0,
+    "pending_approval": [],
+    "errors": [
+        {
+            "stage": "pipeline",
+            "error": "Pipeline was cancelled by the user."
+        }
+    ],
+    "investigations": []
+}
